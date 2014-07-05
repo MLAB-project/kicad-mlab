@@ -1,0 +1,7 @@
+Vyhledove je potreba tyto knihovni prvky presunout do repozitaru na https://github.com/KiCad
+
+(v dobe vzniku tohoto souboru byly nejasnosti okolo struktury oficialnich knihoven.)
+
+Viz mailing list na: https://lists.launchpad.net/kicad-lib-committers/
+
+
