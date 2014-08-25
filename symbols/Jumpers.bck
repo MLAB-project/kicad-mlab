@@ -5,7 +5,17 @@ D MLAB modified doubled pinheader connector
 K JUMPER PINHEADER
 $ENDCMP
 #
+$CMP JUMP_2_CONN
+D MLAB modified doubled pinheader connector
+K JUMPER PINHEADER
+$ENDCMP
+#
 $CMP JUMP_3X2_CONN
+D MLAB modified doubled pinheader connector
+K JUMPER PINHEADER
+$ENDCMP
+#
+$CMP JUMP_5X2_CONN
 D MLAB modified doubled pinheader connector
 K JUMPER PINHEADER
 $ENDCMP
