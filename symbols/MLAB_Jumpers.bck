@@ -1,0 +1,78 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CONN1_1
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP CONN1_2
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP CONN_2
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP CONN_3
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP JUMP2_3X2
+D MLAB modified doubled pinheader connector
+K JUMPER PINHEADER
+$ENDCMP
+#
+$CMP JUMP2_5X2
+D MLAB modified doubled pinheader connector
+K JUMPER PINHEADER
+$ENDCMP
+#
+$CMP JUMP_2X2
+D MLAB modified doubled pinheader connector
+K JUMPER PINHEADER
+$ENDCMP
+#
+$CMP JUMP_2x1
+D MLAB modified doubled pinheader connector
+K JUMPER PINHEADER
+$ENDCMP
+#
+$CMP JUMP_3X2
+D MLAB modified doubled pinheader connector
+K JUMPER PINHEADER
+$ENDCMP
+#
+$CMP JUMP_4X2
+D MLAB modified doubled pinheader connector
+K JUMPER PINHEADER
+$ENDCMP
+#
+$CMP JUMP_5X2
+D MLAB modified doubled pinheader connector
+K JUMPER PINHEADER
+$ENDCMP
+#
+$CMP JUMP_7X2
+D MLAB modified doubled pinheader connector
+K JUMPER PINHEADER
+$ENDCMP
+#
+$CMP JUMP_8X2
+D MLAB modified doubled pinheader connector
+K JUMPER PINHEADER
+$ENDCMP
+#
+$CMP _
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP sroub
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
+#End Doc Library
