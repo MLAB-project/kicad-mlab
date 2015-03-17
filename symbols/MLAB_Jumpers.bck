@@ -20,6 +20,11 @@ D Symbole general de connecteur
 K CONN
 $ENDCMP
 #
+$CMP JUMP2_2x1
+D MLAB modified doubled pinheader connector
+K JUMPER PINHEADER
+$ENDCMP
+#
 $CMP JUMP2_3X2
 D MLAB modified doubled pinheader connector
 K JUMPER PINHEADER
