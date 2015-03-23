@@ -4,7 +4,7 @@ KiCad Mlab
 MLAB specific KiCAD parts library.
 
 
-Scripts, setting, symbols and footprints for KiCad used by the [MLAB-project](http://github.com/MLAB-project/)
+Scripts, setting, symbols and footprints for KiCad used by the [MLAB-project](http://mlab.cz)
 
 Installation
 ------------
@@ -21,3 +21,5 @@ To download/update repositories from [KiCad](https://github.com/KiCad) use this:
 ```sh
 $ kicad-footprint-manager  -f ~/kicad_sources/footprints
 ```
+
+Note: you need to run this command every time you update kicad
