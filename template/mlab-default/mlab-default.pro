@@ -1,4 +1,4 @@
-update=Pá 26. prosinec 2014, 15:41:23 CET
+update=17. 4. 2015 15:42:06
 version=1
 last_client=kicad
 [cvpcb]
@@ -42,8 +42,6 @@ LibName29=contrib
 LibName30=valves
 LibName31=header
 LibName32=mechanical
-[general]
-version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=pagelayout_mlab.kicad_wks
@@ -77,3 +75,5 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.127
 BoardOutlineThickness=0.0127
 ModuleOutlineThickness=0.15
+[general]
+version=1
