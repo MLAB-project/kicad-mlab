@@ -15,7 +15,7 @@ $ ./install-all.sh
 
 KiCad Footprint Manager
 -----------------------
-Downloads/updates .pretty repositories for ofline use.
+Downloads/updates .pretty repositories for offline use.
 To download/update repositories from [KiCad](https://github.com/KiCad) use this:
 
 ```sh
