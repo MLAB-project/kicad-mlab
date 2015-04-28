@@ -1,21 +1,21 @@
-(module Mlab_Pin_Headers_Straight_2x01 (layer F.Cu) (tedit 5454C210)
+(module Straight_2x01 (layer F.Cu) (tedit 553F1BFE)
   (descr "pin header straight 2x01")
   (tags "pin header straight 2x01")
   (fp_text reference Mlab_Pin_Headers_Straight_2x01 (at 0 -2.54) (layer F.SilkS) hide
     (effects (font (size 1.5 1.5) (thickness 0.15)))
   )
-  (fp_text value VAL** (at 0 2.54) (layer F.SilkS)
+  (fp_text value VAL** (at 0 2.54) (layer F.SilkS) hide
     (effects (font (size 1.5 1.5) (thickness 0.15)))
   )
-  (fp_text user 1 (at -2.921 -0.0) (layer F.SilkS)
+  (fp_text user 1 (at -2.921 0) (layer F.SilkS) hide
     (effects (font (size 0.5 0.5) (thickness 0.05)))
   )
   (fp_line (start -2.54 -1.27) (end 2.54 -1.27) (layer F.SilkS) (width 0.15))
   (fp_line (start 2.54 -1.27) (end 2.54 1.27) (layer F.SilkS) (width 0.15))
   (fp_line (start 2.54 1.27) (end -2.54 1.27) (layer F.SilkS) (width 0.15))
   (fp_line (start -2.54 1.27) (end -2.54 -1.27) (layer F.SilkS) (width 0.15))
-  (pad 1 thru_hole rect (at -1.27 0.0) (size 1.524 1.524) (drill 0.889) (layers *.Cu *.Mask F.SilkS))
-  (pad 2 thru_hole rect (at 1.27 0.0) (size 1.524 1.524) (drill 0.889) (layers *.Cu *.Mask F.SilkS))
+  (pad 1 thru_hole rect (at -1.27 0) (size 1.524 1.524) (drill 0.889) (layers *.Cu *.Mask F.SilkS))
+  (pad 2 thru_hole rect (at 1.27 0) (size 1.524 1.524) (drill 0.889) (layers *.Cu *.Mask F.SilkS))
   (model Pin_Headers/Pin_Header_Straight_2x01.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
