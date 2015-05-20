@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP USB3
+D USB 3.0 B
+$ENDCMP
+#
 $CMP USB3_A
 D USB 3.0 A
 $ENDCMP
