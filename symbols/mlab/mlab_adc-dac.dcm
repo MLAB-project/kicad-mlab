@@ -1,8 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP LTC2271
-D 16-Bit, 20Msps Serial Low Noise Dual ADC
-K Adc LVDS
-$ENDCMP
-#
-#End Doc Library

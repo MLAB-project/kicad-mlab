@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-12-23 BZR 5337)-product   date = Pá 26. prosinec 2014, 15:40:33 CET
+Cmp-Mod V01 Created by Cvpcb (2015-04-05 BZR 5577)-product   date = Ne 24. květen 2015, 22:17:13 CEST
 
 BeginCmp
 TimeStamp = /549D6FF1;
@@ -32,28 +32,28 @@ BeginCmp
 TimeStamp = /549D7549;
 Reference = M1;
 ValeurCmp = HOLE;
-IdModule  = Wire_Pads:SolderWirePad_single_2-5mmDrill;
+IdModule  = Mlab_Mechanical:MountingHole_3mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /549D7628;
 Reference = M2;
 ValeurCmp = HOLE;
-IdModule  = Wire_Pads:SolderWirePad_single_2-5mmDrill;
+IdModule  = Mlab_Mechanical:MountingHole_3mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /549D7646;
 Reference = M3;
 ValeurCmp = HOLE;
-IdModule  = Wire_Pads:SolderWirePad_single_2-5mmDrill;
+IdModule  = Mlab_Mechanical:MountingHole_3mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /549D7665;
 Reference = M4;
 ValeurCmp = HOLE;
-IdModule  = Wire_Pads:SolderWirePad_single_2-5mmDrill;
+IdModule  = Mlab_Mechanical:MountingHole_3mm;
 EndCmp
 
 EndListe
