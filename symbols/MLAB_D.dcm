@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP D_Schottky
+D Diode schottky
+$ENDCMP
+#
 $CMP REFERENCE
 D Diode zener
 K DEV DIODE

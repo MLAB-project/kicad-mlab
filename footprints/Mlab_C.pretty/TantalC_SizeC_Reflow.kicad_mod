@@ -1,11 +1,11 @@
-(module TantalC_SizeC_Reflow (layer F.Cu) (tedit 54BBE3C9)
+(module TantalC_SizeC_Reflow (layer F.Cu) (tedit 564C624B)
   (descr "Tantal Cap. , Size C, EIA-6032, Reflow,")
   (tags "Tantal Cap. , Size C, EIA-6032, Reflow,")
   (attr smd)
-  (fp_text reference REF** (at -0.20066 -3.29946) (layer F.SilkS)
+  (fp_text reference C3 (at 0.0127 0.0381) (layer F.SilkS)
     (effects (font (thickness 0.3048)))
   )
-  (fp_text value VAL** (at -0.09906 3.59918) (layer F.SilkS) hide
+  (fp_text value 4,7uF (at -0.09906 3.59918) (layer F.SilkS) hide
     (effects (font (thickness 0.3048)))
   )
   (fp_line (start -4.30022 -1.69926) (end -4.30022 1.69926) (layer F.SilkS) (width 0.15))

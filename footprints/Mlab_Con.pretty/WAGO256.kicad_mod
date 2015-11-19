@@ -1,10 +1,10 @@
-(module WAGO256 (layer F.Cu) (tedit 54BBE4E3)
+(module WAGO256 (layer F.Cu) (tedit 564C6037)
   (descr "WAGO-Series 236, 2Stift, 1pol, RM 5mm,")
   (tags "WAGO-Series 236, 2Stift, 1pol, RM 5mm, Anreibare Leiterplattenklemme")
-  (fp_text reference REF** (at -4.826 -3.556) (layer F.SilkS)
+  (fp_text reference J4 (at -5.842 0 90) (layer F.SilkS)
     (effects (font (thickness 0.3048)))
   )
-  (fp_text value VAL** (at 0.254 4.064) (layer F.SilkS)
+  (fp_text value WAGO256 (at 0.254 4.064) (layer F.SilkS) hide
     (effects (font (thickness 0.3048)))
   )
   (fp_line (start 7.54 2.5) (end 7.54 2) (layer F.SilkS) (width 0.15))
