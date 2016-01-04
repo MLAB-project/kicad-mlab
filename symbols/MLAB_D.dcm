@@ -4,6 +4,11 @@ $CMP D_Schottky
 D Diode schottky
 $ENDCMP
 #
+$CMP D_ZENER
+D Diode zener
+K DEV DIODE
+$ENDCMP
+#
 $CMP REFERENCE
 D Diode zener
 K DEV DIODE
