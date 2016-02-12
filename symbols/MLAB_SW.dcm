@@ -1,11 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP USB3_A
-D USB 3.0 A
-$ENDCMP
-#
-$CMP USB3_B
-D USB 3.0 B
+$CMP Prepinac
+D Interrupteur simple
+K switch
 $ENDCMP
 #
 #End Doc Library
