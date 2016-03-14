@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP LT6600
-D Ampli Op Mos
-K AmpliOp Mos
-F AmpliOp.sch
-$ENDCMP
-#
-#End Doc Library
