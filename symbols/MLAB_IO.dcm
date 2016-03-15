@@ -46,6 +46,11 @@ $CMP LTC2485
 D 24bit ADC
 $ENDCMP
 #
+$CMP LTC3625
+D Supercapacitor Charger 
+K 1A High Efficiency 2-Cell
+$ENDCMP
+#
 $CMP MAX4475
 D Op amp.
 K AmpliOp

@@ -1,5 +1,5 @@
 (module DE1205-10 (layer F.Cu) (tedit 564C61DE)
-  (descr "SMT capacitor, aluminium electrolytic, 10x10.5")
+  (descr "L DE1207")
   (fp_text reference L1 (at 0 0) (layer F.SilkS)
     (effects (font (thickness 0.3048)))
   )
