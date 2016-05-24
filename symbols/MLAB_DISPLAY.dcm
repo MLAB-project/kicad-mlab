@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FYS-40011DS-11
+D 7 segments display - Common anods
+K DISPLAY LED
+$ENDCMP
+#
+#End Doc Library
