@@ -57,6 +57,10 @@ K AmpliOp
 F op_amps/tl071.pdf
 $ENDCMP
 #
+$CMP PAM2423
+D Zvišující měnič PAM2423
+$ENDCMP
+#
 $CMP PCA9531
 D I2C PWM
 $ENDCMP
