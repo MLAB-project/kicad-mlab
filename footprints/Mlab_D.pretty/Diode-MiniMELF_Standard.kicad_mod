@@ -1,11 +1,11 @@
-(module Diode-MiniMELF_Standard (layer F.Cu) (tedit 547999ED)
+(module Diode-MiniMELF_Standard (layer F.Cu) (tedit 57D29160)
   (descr "Diode Mini-MELF Standard")
   (tags "Diode Mini-MELF Standard")
   (attr smd)
-  (fp_text reference "" (at 0 -2.54) (layer F.SilkS)
+  (fp_text reference D1 (at 0 -2.54) (layer F.SilkS)
     (effects (font (thickness 0.3048)))
   )
-  (fp_text value "" (at 0 3.81) (layer F.SilkS) hide
+  (fp_text value BZV55C (at 0 3.81) (layer F.SilkS) hide
     (effects (font (thickness 0.3048)))
   )
   (fp_line (start 0.65024 0.0508) (end -0.35052 -1.00076) (layer F.SilkS) (width 0.15))
@@ -20,8 +20,8 @@
   )
   (fp_circle (center 0 0) (end 0 0.55118) (layer F.Adhes) (width 0.381))
   (fp_circle (center 0 0) (end 0 0.20066) (layer F.Adhes) (width 0.381))
-  (pad 1 smd rect (at -1.75006 0) (size 1.30048 1.69926) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 1.75006 0) (size 1.30048 1.69926) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at -1.75006 0) (size 1.30048 1.69926) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd rect (at 1.75006 0) (size 1.30048 1.69926) (layers F.Cu F.Paste F.Mask))
   (model MLAB_3D/Diodes/MiniMELF_DO213AA.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.3937 0.3937 0.3937))
