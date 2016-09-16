@@ -1,8 +1,0 @@
-(module "H110X, H1121, HX1188" (layer F.Cu) (tedit 57DA8834)
-  (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value "H110X, H1121, HX1188" (at 0 -0.5) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-)
