@@ -94,6 +94,12 @@ $CMP TL081
 F op_amps/tl081.pdf
 $ENDCMP
 #
+$CMP TLC27L2ID
+D Op amp.
+K AmpliOp
+F op_amps/tl071.pdf
+$ENDCMP
+#
 $CMP TPS2001CDGNR
 D USB POWER SWITCHES
 $ENDCMP

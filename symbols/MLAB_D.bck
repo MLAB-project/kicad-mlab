@@ -14,10 +14,6 @@ D Diode zener
 K DEV DIODE
 $ENDCMP
 #
-$CMP Fotodioda
-D fotodioda
-$ENDCMP
-#
 $CMP REFERENCE
 D Diode zener
 K DEV DIODE
