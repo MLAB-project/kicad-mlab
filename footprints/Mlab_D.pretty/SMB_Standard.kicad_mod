@@ -1,4 +1,4 @@
-(module SMB_Standard (layer F.Cu) (tedit 54BBE11D)
+(module SMB_Standard (layer F.Cu) (tedit 57E4C38F)
   (descr "Diode SMB Standard")
   (tags "Diode SMB Standard")
   (attr smd)
@@ -30,8 +30,8 @@
   (fp_line (start -2.30124 -1.99898) (end -2.30124 -1.80086) (layer F.SilkS) (width 0.15))
   (fp_line (start -2.30124 -1.99898) (end 2.30124 -1.99898) (layer F.SilkS) (width 0.15))
   (fp_line (start 2.30124 -1.99898) (end 2.30124 -1.80086) (layer F.SilkS) (width 0.15))
-  (pad 1 smd rect (at -2.14884 0) (size 2.49936 2.30124) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 2.14884 0) (size 2.49936 2.30124) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd rect (at 2.14884 0) (size 2.49936 2.30124) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at -2.14884 0) (size 2.49936 2.30124) (layers F.Cu F.Paste F.Mask))
   (model MLAB_3D/Diodes/SMB.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.3937 0.3937 0.3937))

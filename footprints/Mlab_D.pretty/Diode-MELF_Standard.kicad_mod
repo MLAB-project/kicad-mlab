@@ -1,11 +1,11 @@
-(module Diode-MELF_Standard (layer F.Cu) (tedit 54799A2C)
+(module Diode-MELF_Standard (layer F.Cu) (tedit 57E4C1D4)
   (descr "Diode, MELF, Standard,")
   (tags "Diode, MELF, Standard,")
   (attr smd)
-  (fp_text reference "" (at 0 -2.54) (layer F.SilkS)
+  (fp_text reference Ref** (at 0 -2.54) (layer F.SilkS)
     (effects (font (thickness 0.3048)))
   )
-  (fp_text value "" (at 0 3.81) (layer F.SilkS) hide
+  (fp_text value Val** (at 0 3.81) (layer F.SilkS) hide
     (effects (font (thickness 0.3048)))
   )
   (fp_line (start 1.15062 0) (end 0.20066 -1.24968) (layer F.SilkS) (width 0.15))
@@ -25,8 +25,8 @@
   (fp_line (start -1.09982 1.24968) (end -1.19888 1.24968) (layer F.SilkS) (width 0.15))
   (fp_line (start 1.19888 -1.24968) (end -1.15062 -1.24968) (layer F.SilkS) (width 0.15))
   (fp_line (start 1.19888 1.24968) (end -1.04902 1.24968) (layer F.SilkS) (width 0.15))
-  (pad 1 smd rect (at -2.4003 0) (size 1.50114 2.70002) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 2.4003 0) (size 1.50114 2.70002) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd rect (at 2.4003 0) (size 1.50114 2.70002) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at -2.4003 0) (size 1.50114 2.70002) (layers F.Cu F.Paste F.Mask))
   (model MLAB_3D/Diodes/MELF.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.3937 0.3937 0.3937))
