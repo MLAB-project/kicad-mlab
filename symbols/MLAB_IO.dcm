@@ -42,6 +42,10 @@ $CMP LEON100
 D GSM
 $ENDCMP
 #
+$CMP LM27762
+D Nápojová pumpa -V a V nastavitelne napeti wson12
+$ENDCMP
+#
 $CMP LM3407
 D LM3407
 K PWM LED
