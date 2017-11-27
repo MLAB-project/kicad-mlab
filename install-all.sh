@@ -6,9 +6,9 @@ sudo cp src/kicad-footprint-manager /usr/bin/kicad-footprint-manager
 
 mkdir -p ~/kicad_sources
 cp -r footprints ~/kicad_sources/
-sudo cp -r symbols /usr/share/kicad/library
-sudo cp -r template /usr/local/share/kicad
-sudo cp -r template /usr/share/kicad
-sudo cp -r modules /usr/share/kicad
+sudo cp -r symbols /usr/share/kicad/library/
+sudo cp -r template /usr/local/share/kicad/
+sudo cp -r template /usr/share/kicad/
+sudo cp -r modules /usr/share/kicad/
 
 kicad-footprint-manager  -f ~/kicad_sources/footprints
