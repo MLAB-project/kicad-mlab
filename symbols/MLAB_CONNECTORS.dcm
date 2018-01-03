@@ -5,12 +5,24 @@ D DC Barrel Jack
 K DC power barrel jack connector
 $ENDCMP
 #
+$CMP Micro_SD_Card
+D Micro SD Card Socket
+K connector SD microsd
+F http://katalog.we-online.de/em/datasheet/693072010801.pdf
+$ENDCMP
+#
 $CMP USB3_A
 D USB 3.0 A
 $ENDCMP
 #
 $CMP USB3_B
 D USB 3.0 B
+$ENDCMP
+#
+$CMP uSD-MCSP-Q-08-A-SG
+D Micro SD Card Socket
+K connector SD microsd
+F https://www.tme.eu/cz/Document/5f9a5d03c5c83aa9fa1dbd4994c7ccab/MCSP-Q-08-A-SG-DTE.pdf
 $ENDCMP
 #
 #End Doc Library
