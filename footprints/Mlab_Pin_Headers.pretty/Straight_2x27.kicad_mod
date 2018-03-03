@@ -1,4 +1,4 @@
-(module Mlab_Pin_Headers_Straight_2x27 (layer F.Cu) (tedit 5454C210)
+(module Straight_2x27 (layer F.Cu) (tedit 5454C210)
   (descr "pin header straight 2x27")
   (tags "pin header straight 2x27")
   (fp_text reference Mlab_Pin_Headers_Straight_2x27 (at 0 -35.56) (layer F.SilkS) hide
@@ -40,8 +40,8 @@
   (pad 24 thru_hole rect (at 1.27 -5.08) (size 1.524 1.524) (drill 0.889) (layers *.Cu *.Mask F.SilkS))
   (pad 25 thru_hole rect (at -1.27 -2.54) (size 1.524 1.524) (drill 0.889) (layers *.Cu *.Mask F.SilkS))
   (pad 26 thru_hole rect (at 1.27 -2.54) (size 1.524 1.524) (drill 0.889) (layers *.Cu *.Mask F.SilkS))
-  (pad 27 thru_hole rect (at -1.27 0.0) (size 1.524 1.524) (drill 0.889) (layers *.Cu *.Mask F.SilkS))
-  (pad 28 thru_hole rect (at 1.27 0.0) (size 1.524 1.524) (drill 0.889) (layers *.Cu *.Mask F.SilkS))
+  (pad 27 thru_hole rect (at -1.27 0) (size 1.524 1.524) (drill 0.889) (layers *.Cu *.Mask F.SilkS))
+  (pad 28 thru_hole rect (at 1.27 0) (size 1.524 1.524) (drill 0.889) (layers *.Cu *.Mask F.SilkS))
   (pad 29 thru_hole rect (at -1.27 2.54) (size 1.524 1.524) (drill 0.889) (layers *.Cu *.Mask F.SilkS))
   (pad 30 thru_hole rect (at 1.27 2.54) (size 1.524 1.524) (drill 0.889) (layers *.Cu *.Mask F.SilkS))
   (pad 31 thru_hole rect (at -1.27 5.08) (size 1.524 1.524) (drill 0.889) (layers *.Cu *.Mask F.SilkS))

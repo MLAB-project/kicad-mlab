@@ -10,6 +10,12 @@ K AmpliOp
 F op_amps/tl071.pdf
 $ENDCMP
 #
+$CMP AS3935
+D Programmable fully integrated Lightning Sensor IC
+K lightening sensor
+F http://ams.com/eng/content/download/249847/974777/143418
+$ENDCMP
+#
 $CMP BQ24103
 K LION CHARGE
 $ENDCMP

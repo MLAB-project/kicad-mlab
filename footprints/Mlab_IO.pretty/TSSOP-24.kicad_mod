@@ -1,4 +1,4 @@
-(module SMD_Packages:TSSOP-28 (layer F.Cu) (tedit 5469DD7B)
+(module TSSOP-24 (layer F.Cu) (tedit 5469DD7B)
   (descr TSSOP-28)
   (attr smd)
   (fp_text reference U1 (at 0 0.508) (layer F.SilkS)

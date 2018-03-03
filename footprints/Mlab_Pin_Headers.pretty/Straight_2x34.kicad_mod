@@ -1,13 +1,13 @@
-(module Mlab_Pin_Headers_Straight_2x34 (layer F.Cu) (tedit 5454C210)
+(module Straight_2x34 (layer F.Cu) (tedit 5454C210)
   (descr "pin header straight 2x34")
   (tags "pin header straight 2x34")
-  (fp_text reference Mlab_Pin_Headers_Straight_2x34 (at 0 -44.450000000000024) (layer F.SilkS) hide
+  (fp_text reference Mlab_Pin_Headers_Straight_2x34 (at 0 -44.45) (layer F.SilkS) hide
     (effects (font (size 1.5 1.5) (thickness 0.15)))
   )
-  (fp_text value VAL** (at 0 44.450000000000024) (layer F.SilkS)
+  (fp_text value VAL** (at 0 44.45) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.15)))
   )
-  (fp_text user 1 (at -2.921 -41.910000000000004) (layer F.SilkS)
+  (fp_text user 1 (at -2.921 -41.91) (layer F.SilkS)
     (effects (font (size 0.5 0.5) (thickness 0.05)))
   )
   (fp_line (start -2.54 -43.18) (end 2.54 -43.18) (layer F.SilkS) (width 0.15))

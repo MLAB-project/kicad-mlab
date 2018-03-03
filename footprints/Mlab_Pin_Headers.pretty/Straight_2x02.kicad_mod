@@ -1,4 +1,4 @@
-(module Mlab_Pin_Headers_Straight_2x02 (layer F.Cu) (tedit 5454C210)
+(module Straight_2x02 (layer F.Cu) (tedit 5454C210)
   (descr "pin header straight 2x02")
   (tags "pin header straight 2x02")
   (fp_text reference Mlab_Pin_Headers_Straight_2x02 (at 0 -3.81) (layer F.SilkS) hide

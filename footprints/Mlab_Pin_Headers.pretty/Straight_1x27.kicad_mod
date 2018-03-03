@@ -1,4 +1,4 @@
-(module Pin_Headers_Rect_Pad_Straight_1x27 (layer F.Cu) (tedit 5454C210)
+(module Straight_1x27 (layer F.Cu) (tedit 5454C210)
   (descr "pin header straight 1x27")
   (tags "pin header straight 1x27")
   (fp_text reference Pin_Headers_Rect_Pad_Straight_1x27 (at 0 -35.56) (layer F.SilkS) hide
@@ -27,7 +27,7 @@
   (pad 17 thru_hole rect (at 0 7.62) (size 1.524 1.524) (drill 0.889) (layers *.Cu *.Mask F.SilkS))
   (pad 16 thru_hole rect (at 0 5.08) (size 1.524 1.524) (drill 0.889) (layers *.Cu *.Mask F.SilkS))
   (pad 15 thru_hole rect (at 0 2.54) (size 1.524 1.524) (drill 0.889) (layers *.Cu *.Mask F.SilkS))
-  (pad 14 thru_hole rect (at 0 0.0) (size 1.524 1.524) (drill 0.889) (layers *.Cu *.Mask F.SilkS))
+  (pad 14 thru_hole rect (at 0 0) (size 1.524 1.524) (drill 0.889) (layers *.Cu *.Mask F.SilkS))
   (pad 13 thru_hole rect (at 0 -2.54) (size 1.524 1.524) (drill 0.889) (layers *.Cu *.Mask F.SilkS))
   (pad 12 thru_hole rect (at 0 -5.08) (size 1.524 1.524) (drill 0.889) (layers *.Cu *.Mask F.SilkS))
   (pad 11 thru_hole rect (at 0 -7.62) (size 1.524 1.524) (drill 0.889) (layers *.Cu *.Mask F.SilkS))

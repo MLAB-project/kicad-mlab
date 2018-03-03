@@ -1,10 +1,10 @@
-(module Pin_Headers_Rect_Pad_Straight_1x24 (layer F.Cu) (tedit 5454C210)
+(module Straight_1x24 (layer F.Cu) (tedit 5454C210)
   (descr "pin header straight 1x24")
   (tags "pin header straight 1x24")
-  (fp_text reference Pin_Headers_Rect_Pad_Straight_1x24 (at 0 -31.749999999999993) (layer F.SilkS) hide
+  (fp_text reference Pin_Headers_Rect_Pad_Straight_1x24 (at 0 -31.75) (layer F.SilkS) hide
     (effects (font (size 1.5 1.5) (thickness 0.15)))
   )
-  (fp_text value VAL** (at 0 31.749999999999993) (layer F.SilkS)
+  (fp_text value VAL** (at 0 31.75) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.15)))
   )
   (fp_text user 1 (at -1.651 -29.21) (layer F.SilkS)

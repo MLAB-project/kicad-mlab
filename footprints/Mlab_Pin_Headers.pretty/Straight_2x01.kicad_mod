@@ -1,4 +1,4 @@
-(module Straight_2x01 (layer F.Cu) (tedit 5545E8D2)
+(module Straight_2x01 (layer F.Cu) (tedit 5A99E638)
   (descr "pin header straight 2x01")
   (tags "pin header straight 2x01")
   (fp_text reference J6 (at 0 -2.54) (layer F.SilkS) hide
@@ -17,5 +17,10 @@
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
+  )
+  (model ${MLAB}/src/3d/mechanical/header_1_2.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
   )
 )

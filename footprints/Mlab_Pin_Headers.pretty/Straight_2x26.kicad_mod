@@ -1,4 +1,4 @@
-(module Mlab_Pin_Headers_Straight_2x26 (layer F.Cu) (tedit 5454C210)
+(module Straight_2x26 (layer F.Cu) (tedit 5454C210)
   (descr "pin header straight 2x26")
   (tags "pin header straight 2x26")
   (fp_text reference Mlab_Pin_Headers_Straight_2x26 (at 0 -34.29) (layer F.SilkS) hide
