@@ -3,6 +3,7 @@
 # Simple python3 command line utility for managing KiCad footprints
 
 import repo
+import sys
 from optparse import OptionParser
 from os import environ, chown
 from pwd import getpwnam
@@ -30,58 +31,35 @@ if __name__ == "__main__":
                       "github USER with footprints repos. Default = " + DEFAULT_GITHUB_USER,
                       default=DEFAULT_GITHUB_USER)
     options, args = parser.parse_args()
-
-
-    if options.foot_dir == None:
-        print("Error: No footprints directory")
-        exit()
     
     try:
         repos_cached = repo.cache_read(options.cache)
     except (TypeError, FileNotFoundError, ValueError, PermissionError, IsADirectoryError):
-        print("Warning: Cannot read " + options.cache)
+        print("Warning: Cannot read " + options.cache, file=sys.stderr)
         repos_cached = {}
 
     try:
         repos2update, status = repo.check_update(GITHUB_API + "users/" + options.user + "/repos", repos_cached)
-        if status != 200: 
-            print("Error: {0} {1}".format(GITHUB_API + "users/" + options.user + "/repos", status))
     except ConnectionError:
-        print("Warning: Cannot fetch data from " + GITHUB_API + "users/" + options.user + "/repos")
+        print("Warning: Cannot fetch data from " + GITHUB_API + "users/" + options.user + "/repos", file=sys.stderr)
         repos2update = {}
     
     if options.foot_dir[len(options.foot_dir) - 1] != "/": options.foot_dir += "/"
 
     if repos2update != {}:
         for item in repos2update.keys():
-            print("Downloading: " + SERVER + item)
-            try:
-                status = repo.download("{0}{1}/archive/master.zip".format(SERVER, item),
-                                       options.foot_dir + item + ".zip")
-                if status != 200: 
-                    print("Error: {0} {1}".format(SERVER + item, status))
-                    exit()
-            except (PermissionError, FileNotFoundError, KeyboardInterrupt):
-                print("Error: Cannot create " + options.foot_dir + item + ".zip")
+            print(SERVER + item)
+            status = repo.download("{0}{1}/archive/master.zip".format(SERVER, item), options.foot_dir + item + ".zip")
+            if status != 200: 
+                print("Error: {0} {1}".format(SERVER + item, status))
                 exit()
 
-            print("Extracting: " + options.foot_dir + item + ".zip")
-            try:
-                repo.extract(options.foot_dir + item + ".zip", options.foot_dir)
-            except (FileNotFoundError, PermissionError, BadZipFile, KeyboardInterrupt):
-                print("Error: Cannot extract " + options.foot_dir + item + ".zip",)
-                exit()
+            repo.extract(options.foot_dir + item + ".zip", options.foot_dir)
 
-    
-    if repos2update != {}: 
         repos_cached.update(repos2update)
         try:
             repo.cache_write(options.cache, repos_cached)
         except (PermissionError, FileNotFoundError, PermissionError):
-            print("Warning: Cannot write " + options.cache)
+            print("Warning: Cannot write " + options.cache, file=sys.stderr)
     
-    print("Table from: " + options.foot_dir)
-    try: 
-        repo.mk_table(options.foot_dir, options.table)
-    except (PermissionError, FileNotFoundError, IsADirectoryError):
-        print("Error: Cannot create " + options.table)
+    repo.mk_table(options.foot_dir, options.table)
