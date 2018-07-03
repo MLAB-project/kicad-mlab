@@ -1,6 +1,6 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP 93LC56BT-I/OT
+$CMP 93LC56BT-I_OT
 D Paměť
 $ENDCMP
 #
@@ -81,6 +81,10 @@ $CMP MAX4475
 D Op amp.
 K AmpliOp
 F op_amps/tl071.pdf
+$ENDCMP
+#
+$CMP MAX5026
+K DC/DC step-up do 36V 120mW
 $ENDCMP
 #
 $CMP MCP3424
