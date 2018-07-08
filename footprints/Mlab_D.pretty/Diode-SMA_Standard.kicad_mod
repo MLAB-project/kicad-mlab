@@ -1,4 +1,4 @@
-(module Diode-SMA_Standard (layer F.Cu) (tedit 5B3B4F51)
+(module Diode-SMA_Standard (layer F.Cu) (tedit 5B41EAA8)
   (descr "Diode SMA (DO-214AC)")
   (tags "Diode SMA (DO-214AC)")
   (attr smd)
