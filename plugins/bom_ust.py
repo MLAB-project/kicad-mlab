@@ -8,6 +8,8 @@ import json, csv
 import sys
 net = kicad_netlist_reader.netlist(sys.argv[1])
 
+print(sys.argv)
+
 try:
     f = open(sys.argv[2], 'w')
 except IOError:
@@ -27,7 +29,8 @@ for c in components:
     c_dict['Value'] = c.getValue()
     c_dict['Footprint'] = c.getFootprint()
     c_dict['Datasheet'] = c.getDatasheet()
-    
+    c_dict['Tstamp'] = c.getTimestamp()
+
     for field in fields:
         c_dict[field] = c.getField(field)
     component_list += [c_dict]
