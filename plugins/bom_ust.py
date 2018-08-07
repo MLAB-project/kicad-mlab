@@ -1,5 +1,5 @@
 
-#    python "path/bom_ust.py" "%I" "%O.csv"
+#    python "path/bom_ust.py" "%I" "%O"
 
 from __future__ import print_function
 
@@ -8,10 +8,11 @@ import json, csv
 import sys
 net = kicad_netlist_reader.netlist(sys.argv[1])
 
+print("...................")
 print(sys.argv)
 
 try:
-    f = open(sys.argv[2], 'w')
+    f = open(sys.argv[2]+'.ust_bom', 'w')
 except IOError:
     e = "Can't open output file for writing: " + sys.argv[2]
     print( __file__, ":", e, sys.stderr )
@@ -33,7 +34,11 @@ for c in components:
 
     for field in fields:
         c_dict[field] = c.getField(field)
+        print('field', field)
     component_list += [c_dict]
+
+print(component_list)
+print("Done...")
 
 with f as outfile:
     json.dump(component_list, outfile,  sort_keys = True, indent = 4)
