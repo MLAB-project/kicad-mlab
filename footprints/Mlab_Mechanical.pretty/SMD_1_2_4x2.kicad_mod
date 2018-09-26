@@ -1,0 +1,10 @@
+(module SMD_1_2_4x2 (layer F.Cu) (tedit 5B658CDA)
+  (fp_text reference J10 (at 0 5.6007) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value HEADER_1x02 (at -0.2032 -1.778) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 2 smd rect (at 0 2.54) (size 4 2) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd rect (at 0 0) (size 4 2) (layers F.Cu F.Paste F.Mask))
+)
