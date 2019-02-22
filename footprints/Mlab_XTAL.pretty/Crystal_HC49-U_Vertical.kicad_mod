@@ -1,4 +1,4 @@
-(module Crystal_HC49-U_Vertical (layer F.Cu) (tedit 0)
+(module Crystal_HC49-U_Vertical (layer F.Cu) (tedit 5C6FA23A)
   (descr "Crystal, Quarz, HC49/U, vertical, stehend,")
   (tags "Crystal, Quarz, HC49/U, vertical, stehend,")
   (fp_text reference Y1 (at 0 -3.81) (layer F.SilkS)
@@ -60,4 +60,9 @@
   (fp_line (start -3.2004 -2.32918) (end 3.2512 -2.32918) (layer F.SilkS) (width 0.15))
   (pad 1 thru_hole circle (at -2.44094 0) (size 1.50114 1.50114) (drill 0.8001) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole circle (at 2.44094 0) (size 1.50114 1.50114) (drill 0.8001) (layers *.Cu *.Mask F.SilkS))
+  (model ${KISYS3DMOD}/Crystal.3dshapes/Crystal_HC49-4H_Vertical.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

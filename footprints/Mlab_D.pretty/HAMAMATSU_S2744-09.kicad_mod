@@ -1,4 +1,4 @@
-(module HAMAMATSU_S2744-09 (layer F.Cu) (tedit 5B3E1784)
+(module HAMAMATSU_S2744-09 (layer F.Cu) (tedit 5C6F9012)
   (descr "Diode SMA (DO-214AC)")
   (tags "Diode SMA (DO-214AC)")
   (attr smd)
@@ -33,9 +33,4 @@
   (fp_line (start -0.94 7.1) (end -27.94 7.1) (layer F.SilkS) (width 0.1))
   (pad 2 thru_hole circle (at -25.44 2.5) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at -25.44 -2.5) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/Diode_SMD.3dshapes/D_SMA.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
 )
