@@ -1,4 +1,4 @@
-(module MicroFC−60035−SMT (layer F.Cu) (tedit 5C5D3597)
+(module MicroFC−60035−SMT (layer F.Cu) (tedit 5C6DCC5F)
   (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -22,6 +22,4 @@
   (pad 2 smd trapezoid (at 3 2.85 90) (size 0.6 1.1) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd trapezoid (at 2.85 -3 180) (size 0.6 1.1) (layers F.Cu F.Paste F.Mask))
   (pad 4 smd trapezoid (at -3 -2.85 270) (size 0.6 1.1) (layers F.Cu F.Paste F.Mask))
-  (pad 5 smd trapezoid (at 0 0 270) (size 6 2.9) (layers F.Cu F.Paste F.Mask))
-  (pad 6 smd trapezoid (at 0 0) (size 6 2.9) (layers F.Cu F.Paste F.Mask))
 )
