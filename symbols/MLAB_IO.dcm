@@ -4,6 +4,11 @@ $CMP 93LC56BT-I_OT
 D Paměť
 $ENDCMP
 #
+$CMP AD8691
+D Single Rail-to-Rail High Output Current Operational Amplifiers, SOT-23-5
+K single opamp
+$ENDCMP
+#
 $CMP AD8692
 D Op amp.
 K AmpliOp
