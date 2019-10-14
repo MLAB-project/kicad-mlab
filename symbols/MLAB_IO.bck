@@ -127,6 +127,17 @@ $CMP SN74HC595D
 D 8-BIT SHIFT REGISTERS WITH 3-STATE OUTPUT REGISTERS
 $ENDCMP
 #
+$CMP SX1262
+D 860 MHz to 1020 MHz Low Power Long Range Transceiver, spreading factor from 6 to 12, LoRA, QFN-28
+K low-power lora transceiver
+$ENDCMP
+#
+$CMP SX1273
+D 860 MHz to 1020 MHz Low Power Long Range Transceiver, spreading factor from 6 to 9, LoRA, QFN-28
+K low-power lora transceiver
+F https://www.semtech.com/uploads/documents/sx1272.pdf
+$ENDCMP
+#
 $CMP SY55855V
 D The SY55855V is a fully differential, CML/PECL/LVPECL-to-LVDS translator.
 K CML PECL LVPECL LVDS differential translator
