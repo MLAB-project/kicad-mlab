@@ -128,7 +128,7 @@ D 8-BIT SHIFT REGISTERS WITH 3-STATE OUTPUT REGISTERS
 $ENDCMP
 #
 $CMP SX1262
-D 860 MHz to 1020 MHz Low Power Long Range Transceiver, spreading factor from 6 to 12, LoRA, QFN-28
+D Low Power Long Range Transceiver, LoRA, QFN-24
 K low-power lora transceiver
 $ENDCMP
 #
