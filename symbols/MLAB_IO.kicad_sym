@@ -1,5 +1,5 @@
-(kicad_symbol_lib (version 20200126) (host kicad_symbol_editor "(5.99.0-2251-g5226d6b4d)")
-  (symbol "MLAB_IO:74AHC1G14GV"
+(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
+  (symbol "MLAB_IO:74AHC1G14GV" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -2.54 1.27 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -31,7 +31,12 @@
     )
     (symbol "74AHC1G14GV_1_0"
       (polyline
-        (pts (xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81))
+        (pts
+          (xy -3.81 3.81)
+          (xy -3.81 -3.81)
+          (xy 3.81 0)
+          (xy -3.81 3.81)
+        )
         (stroke (width 0.254)) (fill (type background))
       )
       (pin input line (at -7.62 0 0) (length 3.81)
@@ -45,11 +50,20 @@
     )
     (symbol "74AHC1G14GV_1_1"
       (polyline
-        (pts (xy -1.905 -1.27) (xy -1.905 1.27) (xy -0.635 1.27))
+        (pts
+          (xy -1.905 -1.27)
+          (xy -1.905 1.27)
+          (xy -0.635 1.27)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy -2.54 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27) (xy 0 1.27))
+        (pts
+          (xy -2.54 -1.27)
+          (xy -0.635 -1.27)
+          (xy -0.635 1.27)
+          (xy 0 1.27)
+        )
         (stroke (width 0)) (fill (type none))
       )
     )
@@ -84,7 +98,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (symbol "MLAB_IO:93LC56BT-I_OT"
+  (symbol "MLAB_IO:93LC56BT-I_OT" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 2.54 8.89 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -132,7 +146,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:AD8314"
+  (symbol "MLAB_IO:AD8314" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 8.89 5.08 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -185,7 +199,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:AD8343"
+  (symbol "MLAB_IO:AD8343" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -11.43 11.43 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -207,72 +221,128 @@
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy -6.35 -5.08) (xy -5.08 -5.08))
+        (pts
+          (xy -6.35 -5.08)
+          (xy -5.08 -5.08)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy -6.35 -2.54) (xy -5.08 -2.54))
+        (pts
+          (xy -6.35 -2.54)
+          (xy -5.08 -2.54)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy -6.35 0) (xy 0.127 0))
+        (pts
+          (xy -6.35 0)
+          (xy 0.127 0)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy -6.35 2.54) (xy -1.27 2.54))
+        (pts
+          (xy -6.35 2.54)
+          (xy -1.27 2.54)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy -6.35 5.08) (xy 0 5.08))
+        (pts
+          (xy -6.35 5.08)
+          (xy 0 5.08)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy -3.175 -1.905) (xy -3.175 0))
+        (pts
+          (xy -3.175 -1.905)
+          (xy -3.175 0)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy 0.381 5.334) (xy 2.159 3.556))
+        (pts
+          (xy 0.381 5.334)
+          (xy 2.159 3.556)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy 0.635 -5.08) (xy 0.635 -0.762))
+        (pts
+          (xy 0.635 -5.08)
+          (xy 0.635 -0.762)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy 0.635 0.762) (xy 0.635 3.302))
+        (pts
+          (xy 0.635 0.762)
+          (xy 0.635 3.302)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy 1.905 0.762) (xy 1.905 3.302))
+        (pts
+          (xy 1.905 0.762)
+          (xy 1.905 3.302)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy 2.159 5.334) (xy 0.381 3.556))
+        (pts
+          (xy 2.159 5.334)
+          (xy 0.381 3.556)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy 6.35 -5.08) (xy 0.635 -5.08))
+        (pts
+          (xy 6.35 -5.08)
+          (xy 0.635 -5.08)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy 6.35 5.08) (xy 2.54 5.08))
+        (pts
+          (xy 6.35 5.08)
+          (xy 2.54 5.08)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy -1.27 2.54) (xy -1.27 3.81) (xy 0 3.81))
+        (pts
+          (xy -1.27 2.54)
+          (xy -1.27 3.81)
+          (xy 0 3.81)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy 6.35 -2.54) (xy 1.905 -2.54) (xy 1.905 -0.762))
+        (pts
+          (xy 6.35 -2.54)
+          (xy 1.905 -2.54)
+          (xy 1.905 -0.762)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy 6.35 2.54) (xy 3.81 2.54) (xy 3.81 3.81) (xy 2.54 3.81))
+        (pts
+          (xy 6.35 2.54)
+          (xy 3.81 2.54)
+          (xy 3.81 3.81)
+          (xy 2.54 3.81)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy 1.27 1.778) (xy -0.254 -0.762) (xy 2.794 -0.762) (xy 2.159 0.254)
-             (xy 1.27 1.778)
+        (pts
+          (xy 1.27 1.778)
+          (xy -0.254 -0.762)
+          (xy 2.794 -0.762)
+          (xy 2.159 0.254)
+          (xy 1.27 1.778)
         )
         (stroke (width 0)) (fill (type none))
       )
@@ -341,7 +411,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:AD8691" (pin_names (offset 0.127))
+  (symbol "MLAB_IO:AD8691" (pin_names (offset 0.127)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0 5.08 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -365,7 +435,12 @@
     )
     (symbol "AD8691_0_1"
       (polyline
-        (pts (xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08))
+        (pts
+          (xy -5.08 5.08)
+          (xy 5.08 0)
+          (xy -5.08 -5.08)
+          (xy -5.08 5.08)
+        )
         (stroke (width 0.254)) (fill (type background))
       )
       (pin power_in line (at -2.54 -7.62 90) (length 3.81)
@@ -392,7 +467,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:AD8692" (pin_names (offset 0.508))
+  (symbol "MLAB_IO:AD8692" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 3.81 7.62 0)
       (effects (font (size 1.778 1.778)))
     )
@@ -413,7 +488,12 @@
     )
     (symbol "AD8692_0_1"
       (polyline
-        (pts (xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08))
+        (pts
+          (xy -5.08 5.08)
+          (xy 5.08 0)
+          (xy -5.08 -5.08)
+          (xy -5.08 5.08)
+        )
         (stroke (width 0)) (fill (type none))
       )
     )
@@ -462,7 +542,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:APX810-31SAG-7"
+  (symbol "MLAB_IO:APX810-31SAG-7" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -1.27 5.08 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -495,7 +575,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:ARRAYC-60035-4P-BGA"
+  (symbol "MLAB_IO:ARRAYC-60035-4P-BGA" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 2.54 -3.81 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -510,65 +590,120 @@
     )
     (symbol "ARRAYC-60035-4P-BGA_0_1"
       (polyline
-        (pts (xy -2.54 -1.27) (xy -2.54 -2.54))
+        (pts
+          (xy -2.54 -1.27)
+          (xy -2.54 -2.54)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy 2.54 -1.27) (xy 2.54 -2.54))
+        (pts
+          (xy 2.54 -1.27)
+          (xy 2.54 -2.54)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy 7.62 -1.27) (xy 7.62 -2.54) (xy -8.89 -2.54) (xy -8.89 -1.27))
+        (pts
+          (xy 7.62 -1.27)
+          (xy 7.62 -2.54)
+          (xy -8.89 -2.54)
+          (xy -8.89 -1.27)
+        )
         (stroke (width 0)) (fill (type none))
       )
     )
     (symbol "ARRAYC-60035-4P-BGA_1_1"
       (polyline
-        (pts (xy -10.16 -1.27) (xy -7.62 -1.27))
+        (pts
+          (xy -10.16 -1.27)
+          (xy -7.62 -1.27)
+        )
         (stroke (width 0.2032)) (fill (type none))
       )
       (polyline
-        (pts (xy -8.89 1.27) (xy -8.89 -1.27))
+        (pts
+          (xy -8.89 1.27)
+          (xy -8.89 -1.27)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy -3.81 -1.27) (xy -1.27 -1.27))
+        (pts
+          (xy -3.81 -1.27)
+          (xy -1.27 -1.27)
+        )
         (stroke (width 0.2032)) (fill (type none))
       )
       (polyline
-        (pts (xy -2.54 1.27) (xy -2.54 -1.27))
+        (pts
+          (xy -2.54 1.27)
+          (xy -2.54 -1.27)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy 1.27 -1.27) (xy 3.81 -1.27))
+        (pts
+          (xy 1.27 -1.27)
+          (xy 3.81 -1.27)
+        )
         (stroke (width 0.2032)) (fill (type none))
       )
       (polyline
-        (pts (xy 2.54 1.27) (xy 2.54 -1.27))
+        (pts
+          (xy 2.54 1.27)
+          (xy 2.54 -1.27)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy 6.35 -1.27) (xy 8.89 -1.27))
+        (pts
+          (xy 6.35 -1.27)
+          (xy 8.89 -1.27)
+        )
         (stroke (width 0.2032)) (fill (type none))
       )
       (polyline
-        (pts (xy 7.62 1.27) (xy 7.62 -1.27))
+        (pts
+          (xy 7.62 1.27)
+          (xy 7.62 -1.27)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy -10.16 1.27) (xy -7.62 1.27) (xy -8.89 -1.27) (xy -10.16 1.27))
+        (pts
+          (xy -10.16 1.27)
+          (xy -7.62 1.27)
+          (xy -8.89 -1.27)
+          (xy -10.16 1.27)
+        )
         (stroke (width 0.2032)) (fill (type none))
       )
       (polyline
-        (pts (xy -3.81 1.27) (xy -1.27 1.27) (xy -2.54 -1.27) (xy -3.81 1.27))
+        (pts
+          (xy -3.81 1.27)
+          (xy -1.27 1.27)
+          (xy -2.54 -1.27)
+          (xy -3.81 1.27)
+        )
         (stroke (width 0.2032)) (fill (type none))
       )
       (polyline
-        (pts (xy 1.27 1.27) (xy 3.81 1.27) (xy 2.54 -1.27) (xy 1.27 1.27))
+        (pts
+          (xy 1.27 1.27)
+          (xy 3.81 1.27)
+          (xy 2.54 -1.27)
+          (xy 1.27 1.27)
+        )
         (stroke (width 0.2032)) (fill (type none))
       )
       (polyline
-        (pts (xy 6.35 1.27) (xy 8.89 1.27) (xy 7.62 -1.27) (xy 6.35 1.27))
+        (pts
+          (xy 6.35 1.27)
+          (xy 8.89 1.27)
+          (xy 7.62 -1.27)
+          (xy 6.35 1.27)
+        )
         (stroke (width 0.2032)) (fill (type none))
       )
       (pin passive line (at -8.89 3.81 270) (length 2.54)
@@ -609,7 +744,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:AS3935"
+  (symbol "MLAB_IO:AS3935" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 5.08 15.24 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -628,7 +763,7 @@
     (property "ki_description" "Programmable fully integrated Lightning Sensor IC" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "MLPQ\n16" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "MLPQ 16" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "AS3935_0_1"
@@ -703,7 +838,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:AS5048B"
+  (symbol "MLAB_IO:AS5048B" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -6.35 6.35 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -756,7 +891,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:ASFL1"
+  (symbol "MLAB_IO:ASFL1" (in_bom yes) (on_board yes)
     (property "Reference" "X" (id 0) (at 3.81 5.08 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -793,7 +928,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:BQ24103"
+  (symbol "MLAB_IO:BQ24103" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0 10.16 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -901,7 +1036,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:BQ29209"
+  (symbol "MLAB_IO:BQ29209" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0 10.16 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -961,7 +1096,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:BQ34Z100"
+  (symbol "MLAB_IO:BQ34Z100" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0 13.97 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -1041,7 +1176,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:CAT24C04YI-GT3OSCT-ND"
+  (symbol "MLAB_IO:CAT24C04YI-GT3OSCT-ND" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -1.27 5.08 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -1097,7 +1232,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:DRV110APWR"
+  (symbol "MLAB_IO:DRV110APWR" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -7.62 10.16 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -1158,7 +1293,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:DRV8835"
+  (symbol "MLAB_IO:DRV8835" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -17.78 27.94 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -1227,7 +1362,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:DRV8871"
+  (symbol "MLAB_IO:DRV8871" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0 2.54 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -1287,7 +1422,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:EEPROM"
+  (symbol "MLAB_IO:EEPROM" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 2.54 10.16 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -1343,7 +1478,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:FT4232HL"
+  (symbol "MLAB_IO:FT4232HL" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -2.54 2.54 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -1623,7 +1758,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:L6470"
+  (symbol "MLAB_IO:L6470" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -1.27 6.35 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -1800,7 +1935,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:LE33CD"
+  (symbol "MLAB_IO:LE33CD" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -1.27 5.08 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -1853,7 +1988,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:LEON100"
+  (symbol "MLAB_IO:LEON100" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -3.81 33.02 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -2077,7 +2212,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:LM27762"
+  (symbol "MLAB_IO:LM27762" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -1.27 33.02 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -2153,7 +2288,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:LM3407"
+  (symbol "MLAB_IO:LM3407" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0 10.16 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -2216,7 +2351,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:LM3485"
+  (symbol "MLAB_IO:LM3485" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -7.62 7.62 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -2269,7 +2404,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:LT6600" (pin_names (offset 0))
+  (symbol "MLAB_IO:LT6600" (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0 0 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -2296,15 +2431,26 @@
         (effects (font (size 1.524 1.524) bold))
       )
       (polyline
-        (pts (xy -5.08 -5.08) (xy -5.08 5.08))
+        (pts
+          (xy -5.08 -5.08)
+          (xy -5.08 5.08)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy -5.08 -5.08) (xy 5.08 0) (xy -5.08 5.08))
+        (pts
+          (xy -5.08 -5.08)
+          (xy 5.08 0)
+          (xy -5.08 5.08)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy 5.08 5.08) (xy 1.27 5.08) (xy 0 2.54))
+        (pts
+          (xy 5.08 5.08)
+          (xy 1.27 5.08)
+          (xy 0 2.54)
+        )
         (stroke (width 0)) (fill (type none))
       )
     )
@@ -2343,7 +2489,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:LT6604-10"
+  (symbol "MLAB_IO:LT6604-10" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -10.16 16.51 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -2376,77 +2522,133 @@
         (effects (font (size 0.9906 0.9906)))
       )
       (polyline
-        (pts (xy -10.16 3.81) (xy -11.43 3.81))
+        (pts
+          (xy -10.16 3.81)
+          (xy -11.43 3.81)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy -10.16 3.81) (xy -5.08 3.81))
+        (pts
+          (xy -10.16 3.81)
+          (xy -5.08 3.81)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy -10.16 6.35) (xy -11.43 6.35))
+        (pts
+          (xy -10.16 6.35)
+          (xy -11.43 6.35)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy -10.16 6.35) (xy -5.08 6.35))
+        (pts
+          (xy -10.16 6.35)
+          (xy -5.08 6.35)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy -10.16 8.89) (xy -11.43 8.89))
+        (pts
+          (xy -10.16 8.89)
+          (xy -11.43 8.89)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy -10.16 8.89) (xy -5.08 8.89))
+        (pts
+          (xy -10.16 8.89)
+          (xy -5.08 8.89)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy -10.16 11.43) (xy -11.43 11.43))
+        (pts
+          (xy -10.16 11.43)
+          (xy -11.43 11.43)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy -10.16 11.43) (xy -5.08 11.43))
+        (pts
+          (xy -10.16 11.43)
+          (xy -5.08 11.43)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy -4.445 3.81) (xy -3.175 3.81))
+        (pts
+          (xy -4.445 3.81)
+          (xy -3.175 3.81)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy -4.445 11.43) (xy -3.175 11.43))
+        (pts
+          (xy -4.445 11.43)
+          (xy -3.175 11.43)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy -3.81 12.065) (xy -3.81 10.795))
+        (pts
+          (xy -3.81 12.065)
+          (xy -3.81 10.795)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy 2.54 5.08) (xy 1.778 5.08))
+        (pts
+          (xy 2.54 5.08)
+          (xy 1.778 5.08)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy 2.54 10.16) (xy 1.778 10.16))
+        (pts
+          (xy 2.54 10.16)
+          (xy 1.778 10.16)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy 7.62 5.08) (xy 2.54 5.08))
+        (pts
+          (xy 7.62 5.08)
+          (xy 2.54 5.08)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy 7.62 5.08) (xy 11.43 5.08))
+        (pts
+          (xy 7.62 5.08)
+          (xy 11.43 5.08)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy 7.62 10.16) (xy 2.54 10.16))
+        (pts
+          (xy 7.62 10.16)
+          (xy 2.54 10.16)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy 7.62 10.16) (xy 11.43 10.16))
+        (pts
+          (xy 7.62 10.16)
+          (xy 11.43 10.16)
+        )
         (stroke (width 0)) (fill (type none))
       )
     )
     (symbol "LT6604-10_0_1"
       (polyline
-        (pts (xy -5.08 13.97) (xy -5.08 1.27) (xy 6.35 7.62) (xy -5.08 13.97))
+        (pts
+          (xy -5.08 13.97)
+          (xy -5.08 1.27)
+          (xy 6.35 7.62)
+          (xy -5.08 13.97)
+        )
         (stroke (width 0)) (fill (type none))
       )
     )
@@ -2527,7 +2729,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:LTC2271"
+  (symbol "MLAB_IO:LTC2271" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 43.18 52.07 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -2780,7 +2982,7 @@
       (effects (font (size 1.524 1.524)))
     )
   )
-  (symbol "MLAB_IO:LTC2485"
+  (symbol "MLAB_IO:LTC2485" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 1.27 5.08 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -2848,7 +3050,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:LTC3625"
+  (symbol "MLAB_IO:LTC3625" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -5.08 22.86 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -2927,7 +3129,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:MAX4475" (pin_names (offset 0.508))
+  (symbol "MLAB_IO:MAX4475" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 3.81 7.62 0)
       (effects (font (size 1.778 1.778)))
     )
@@ -2948,7 +3150,12 @@
     )
     (symbol "MAX4475_0_1"
       (polyline
-        (pts (xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08))
+        (pts
+          (xy -5.08 5.08)
+          (xy 5.08 0)
+          (xy -5.08 -5.08)
+          (xy -5.08 5.08)
+        )
         (stroke (width 0)) (fill (type none))
       )
     )
@@ -2993,7 +3200,7 @@
       (effects (font (size 1.524 1.524)))
     )
   )
-  (symbol "MLAB_IO:MAX5026"
+  (symbol "MLAB_IO:MAX5026" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -5.08 10.16 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -3044,7 +3251,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:MCP3424"
+  (symbol "MLAB_IO:MCP3424" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 1.27 0 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -3124,7 +3331,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:MICROFC-60035-SMT-TR(1)"
+  (symbol "MLAB_IO:MICROFC-60035-SMT-TR(1)" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 12.7 -3.81 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -3177,15 +3384,26 @@
     )
     (symbol "MICROFC-60035-SMT-TR(1)_1_1"
       (polyline
-        (pts (xy -1.27 -6.35) (xy 1.27 -6.35))
+        (pts
+          (xy -1.27 -6.35)
+          (xy 1.27 -6.35)
+        )
         (stroke (width 0.2032)) (fill (type none))
       )
       (polyline
-        (pts (xy 0 -3.81) (xy 0 -6.35))
+        (pts
+          (xy 0 -3.81)
+          (xy 0 -6.35)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy -1.27 -3.81) (xy 1.27 -3.81) (xy 0 -6.35) (xy -1.27 -3.81))
+        (pts
+          (xy -1.27 -3.81)
+          (xy 1.27 -3.81)
+          (xy 0 -6.35)
+          (xy -1.27 -3.81)
+        )
         (stroke (width 0.2032)) (fill (type none))
       )
       (pin passive line (at 0 10.16 270) (length 2.54)
@@ -3206,7 +3424,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:MPC1643"
+  (symbol "MLAB_IO:MPC1643" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 3.81 13.97 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -3255,7 +3473,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:MPGA-105+_MGVA-63+" (pin_names hide)
+  (symbol "MLAB_IO:MPGA-105+_MGVA-63+" (pin_names hide) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -3.81 11.43 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -3270,8 +3488,12 @@
     )
     (symbol "MPGA-105+_MGVA-63+_0_1"
       (polyline
-        (pts (xy -3.81 10.16) (xy -3.81 2.54) (xy -1.27 3.81) (xy 3.81 6.35)
-             (xy -3.81 10.16)
+        (pts
+          (xy -3.81 10.16)
+          (xy -3.81 2.54)
+          (xy -1.27 3.81)
+          (xy 3.81 6.35)
+          (xy -3.81 10.16)
         )
         (stroke (width 0)) (fill (type background))
       )
@@ -3317,7 +3539,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:PAM2423"
+  (symbol "MLAB_IO:PAM2423" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -3.81 13.97 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -3377,7 +3599,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:PCA9531"
+  (symbol "MLAB_IO:PCA9531" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -1.27 10.16 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -3465,7 +3687,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:PCA9616"
+  (symbol "MLAB_IO:PCA9616" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0 11.43 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -3550,7 +3772,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:PCA9635PW"
+  (symbol "MLAB_IO:PCA9635PW" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 2.54 24.13 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -3689,7 +3911,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:PCF85263A"
+  (symbol "MLAB_IO:PCF85263A" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 5.08 12.7 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -3753,7 +3975,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:PCF8583"
+  (symbol "MLAB_IO:PCF8583" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -5.08 10.16 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -3766,7 +3988,7 @@
     (property "Datasheet" "" (id 3) (at 0 17.78 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "ki_fp_filters" "DIP8\nSO8\nHVQFN20" (id 4) (at 0 0 0)
+    (property "ki_fp_filters" "DIP8 SO8 HVQFN20" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "PCF8583_0_1"
@@ -3809,7 +4031,292 @@
       )
     )
   )
-  (symbol "MLAB_IO:SC18IM700"
+  (symbol "MLAB_IO:PE4259" (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at -10.16 11.43 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "PE4259" (id 1) (at 1.27 11.43 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Mlab_IO:SC-70-6" (id 2) (at 0 -11.43 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.psemi.com/pdf/datasheets/pe4259ds.pdf" (id 3) (at -1.27 5.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "RF Switch" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "RF Switch" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "MSOP*3x3mm*P0.65mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "PE4259_0_0"
+      (arc (start 2.286 -0.508) (end 2.286 0.508) (radius (at 2.286 0) (length 0.508) (angles -89.9 89.9))
+        (stroke (width 0)) (fill (type none))
+      )
+      (circle (center -3.81 2.54) (radius 0.254) (stroke (width 0)) (fill (type outline)))
+      (circle (center -2.286 -2.54) (radius 0.254) (stroke (width 0)) (fill (type none)))
+      (circle (center -1.27 -2.54) (radius 0.254) (stroke (width 0)) (fill (type outline)))
+      (text "50" (at 2.286 -5.715 900)
+        (effects (font (size 0.635 0.635)))
+      )
+      (text "50" (at 3.81 -5.715 900)
+        (effects (font (size 0.635 0.635)))
+      )
+      (rectangle (start -10.16 10.16) (end 10.16 -10.16)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (polyline
+        (pts
+          (xy -4.318 -2.54)
+          (xy -4.826 -2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -3.81 2.54)
+          (xy -5.588 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 -2.54)
+          (xy -1.27 -1.778)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 -1.27)
+          (xy -1.27 -0.508)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 1.27)
+          (xy -1.27 0.508)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 2.54)
+          (xy -1.27 1.778)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 3.81)
+          (xy -1.27 3.048)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 5.08)
+          (xy -1.27 4.318)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.508 -2.54)
+          (xy -2.032 -2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -2.54)
+          (xy 0.762 -2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.254 0)
+          (xy 5.588 0)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.254 5.08)
+          (xy 5.588 5.08)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.032 -2.54)
+          (xy 1.27 -2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.286 0.508)
+          (xy 2.286 5.08)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 3.556 -2.54)
+          (xy 2.794 -2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -4.318 -1.524)
+          (xy -4.318 -3.556)
+          (xy -2.54 -2.54)
+          (xy -4.318 -1.524)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.794 0)
+          (xy -3.81 0)
+          (xy -3.81 5.08)
+          (xy -2.794 5.08)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+    )
+    (symbol "PE4259_0_1"
+      (circle (center -2.54 0) (radius 0.254) (stroke (width 0)) (fill (type none)))
+      (circle (center -2.54 5.08) (radius 0.254) (stroke (width 0)) (fill (type none)))
+      (circle (center 0 0) (radius 0.254) (stroke (width 0)) (fill (type none)))
+      (circle (center 0 5.08) (radius 0.254) (stroke (width 0)) (fill (type none)))
+      (circle (center 2.286 -3.302) (radius 0.254) (stroke (width 0)) (fill (type none)))
+      (circle (center 2.286 -1.778) (radius 0.254) (stroke (width 0)) (fill (type none)))
+      (circle (center 2.286 5.08) (radius 0.254) (stroke (width 0)) (fill (type outline)))
+      (circle (center 3.81 -3.302) (radius 0.254) (stroke (width 0)) (fill (type none)))
+      (circle (center 3.81 -1.778) (radius 0.254) (stroke (width 0)) (fill (type none)))
+      (circle (center 3.81 0) (radius 0.254) (stroke (width 0)) (fill (type outline)))
+      (rectangle (start 1.778 -4.572) (end 2.794 -6.858)
+        (stroke (width 0)) (fill (type none))
+      )
+      (rectangle (start 3.302 -4.572) (end 4.318 -6.858)
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.286 0)
+          (xy 0.127 0.381)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.286 5.08)
+          (xy -0.254 5.842)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.286 -3.556)
+          (xy 2.286 -4.572)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.286 -2.032)
+          (xy 2.667 -3.429)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.286 -0.508)
+          (xy 2.286 -1.524)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 3.81 -3.556)
+          (xy 3.81 -4.572)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 3.81 -2.032)
+          (xy 4.572 -3.302)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 3.81 0)
+          (xy 3.81 -1.524)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.286 -6.858)
+          (xy 2.286 -7.874)
+          (xy 1.778 -7.874)
+          (xy 2.286 -8.636)
+          (xy 2.794 -7.874)
+          (xy 2.286 -7.874)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 3.81 -6.858)
+          (xy 3.81 -7.874)
+          (xy 3.302 -7.874)
+          (xy 3.81 -8.636)
+          (xy 4.318 -7.874)
+          (xy 3.81 -7.874)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+    )
+    (symbol "PE4259_1_1"
+      (pin input line (at -12.7 -2.54 0) (length 2.54)
+        (name "CTRL" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at -12.7 2.54 0) (length 2.54)
+        (name "RFC" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 12.7 0 180) (length 2.54)
+        (name "RF2" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -12.7 90) (length 2.54)
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 12.7 5.08 180) (length 2.54)
+        (name "RF1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin input inverted (at -12.7 -5.842 0) (length 2.54)
+        (name "#CTRL" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "MLAB_IO:SC18IM700" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -1.27 10.16 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -3894,7 +4401,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:SC18IS602B"
+  (symbol "MLAB_IO:SC18IS602B" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -1.27 12.7 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -3979,7 +4486,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:SDP3x"
+  (symbol "MLAB_IO:SDP3x" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 2.54 11.43 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -4052,7 +4559,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:SHT31"
+  (symbol "MLAB_IO:SHT31" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -6.35 12.7 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -4109,7 +4616,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:SN65LVDS9638D" (pin_names (offset 0.508))
+  (symbol "MLAB_IO:SN65LVDS9638D" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -10.16 13.97 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -4144,53 +4651,93 @@
         (stroke (width 0.254)) (fill (type background))
       )
       (polyline
-        (pts (xy 1.905 -6.858) (xy 1.905 -7.62))
+        (pts
+          (xy 1.905 -6.858)
+          (xy 1.905 -7.62)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy 1.905 -4.445) (xy 1.905 -2.54))
+        (pts
+          (xy 1.905 -4.445)
+          (xy 1.905 -2.54)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy 1.905 3.302) (xy 1.905 2.54))
+        (pts
+          (xy 1.905 3.302)
+          (xy 1.905 2.54)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy 1.905 5.715) (xy 1.905 7.62))
+        (pts
+          (xy 1.905 5.715)
+          (xy 1.905 7.62)
+        )
         (stroke (width 0)) (fill (type none))
       )
     )
     (symbol "SN65LVDS9638D_1_1"
       (polyline
-        (pts (xy -6.35 -5.08) (xy -4.445 -5.08))
+        (pts
+          (xy -6.35 -5.08)
+          (xy -4.445 -5.08)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy -6.35 5.08) (xy -4.445 5.08))
+        (pts
+          (xy -6.35 5.08)
+          (xy -4.445 5.08)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy 1.905 -7.62) (xy 3.81 -7.62))
+        (pts
+          (xy 1.905 -7.62)
+          (xy 3.81 -7.62)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy 1.905 2.54) (xy 3.81 2.54))
+        (pts
+          (xy 1.905 2.54)
+          (xy 3.81 2.54)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy 3.81 -2.54) (xy 1.905 -2.54))
+        (pts
+          (xy 3.81 -2.54)
+          (xy 1.905 -2.54)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy 3.81 7.62) (xy 1.905 7.62))
+        (pts
+          (xy 3.81 7.62)
+          (xy 1.905 7.62)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy -4.445 -8.89) (xy -4.445 -1.27) (xy 3.175 -5.08) (xy -4.445 -8.89))
+        (pts
+          (xy -4.445 -8.89)
+          (xy -4.445 -1.27)
+          (xy 3.175 -5.08)
+          (xy -4.445 -8.89)
+        )
         (stroke (width 0.254)) (fill (type none))
       )
       (polyline
-        (pts (xy -4.445 1.27) (xy -4.445 8.89) (xy 3.175 5.08) (xy -4.445 1.27))
+        (pts
+          (xy -4.445 1.27)
+          (xy -4.445 8.89)
+          (xy 3.175 5.08)
+          (xy -4.445 1.27)
+        )
         (stroke (width 0.254)) (fill (type none))
       )
       (pin power_in line (at 0 15.24 270) (length 2.54)
@@ -4227,7 +4774,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:SN74HC164D"
+  (symbol "MLAB_IO:SN74HC164D" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 1.27 7.62 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -4307,7 +4854,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:SN74HC595D"
+  (symbol "MLAB_IO:SN74HC595D" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0 0 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -4395,7 +4942,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:SX1262"
+  (symbol "MLAB_IO:SX1262" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -15.24 25.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -4545,7 +5092,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (symbol "MLAB_IO:SY55855V" (pin_names (offset 0))
+  (symbol "MLAB_IO:SY55855V" (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 2.54 6.35 0)
       (effects (font (size 1.778 1.778)))
     )
@@ -4566,15 +5113,24 @@
     )
     (symbol "SY55855V_0_1"
       (polyline
-        (pts (xy -5.08 -5.08) (xy 5.08 0))
+        (pts
+          (xy -5.08 -5.08)
+          (xy 5.08 0)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy -5.08 5.08) (xy -5.08 -5.08))
+        (pts
+          (xy -5.08 5.08)
+          (xy -5.08 -5.08)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy 5.08 0) (xy -5.08 5.08))
+        (pts
+          (xy 5.08 0)
+          (xy -5.08 5.08)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (pin power_in line (at -2.54 11.43 270) (length 7.62)
@@ -4623,7 +5179,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:SY55857L" (pin_names (offset 0))
+  (symbol "MLAB_IO:SY55857L" (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 2.54 6.35 0)
       (effects (font (size 1.778 1.778)))
     )
@@ -4644,15 +5200,24 @@
     )
     (symbol "SY55857L_0_1"
       (polyline
-        (pts (xy -5.08 -5.08) (xy 5.08 0))
+        (pts
+          (xy -5.08 -5.08)
+          (xy 5.08 0)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy -5.08 5.08) (xy -5.08 -5.08))
+        (pts
+          (xy -5.08 5.08)
+          (xy -5.08 -5.08)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy 5.08 0) (xy -5.08 5.08))
+        (pts
+          (xy 5.08 0)
+          (xy -5.08 5.08)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (pin power_in line (at -2.54 11.43 270) (length 7.62)
@@ -4701,7 +5266,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:Si1060-A-GM"
+  (symbol "MLAB_IO:Si1060-A-GM" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -8.89 -17.78 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -4870,7 +5435,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:Si53322"
+  (symbol "MLAB_IO:Si53322" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -17.78 10.16 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -4893,71 +5458,131 @@
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy -8.89 -5.08) (xy -6.858 -5.08))
+        (pts
+          (xy -8.89 -5.08)
+          (xy -6.858 -5.08)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy -8.89 -2.54) (xy -6.35 -2.54))
+        (pts
+          (xy -8.89 -2.54)
+          (xy -6.35 -2.54)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy 2.54 -5.08) (xy -3.81 -5.08))
+        (pts
+          (xy 2.54 -5.08)
+          (xy -3.81 -5.08)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy 6.35 -5.08) (xy 5.842 -5.08))
+        (pts
+          (xy 6.35 -5.08)
+          (xy 5.842 -5.08)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy 6.35 -2.54) (xy 5.08 -2.54))
+        (pts
+          (xy 6.35 -2.54)
+          (xy 5.08 -2.54)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy 6.35 2.54) (xy 5.842 2.54))
+        (pts
+          (xy 6.35 2.54)
+          (xy 5.842 2.54)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy 6.35 5.08) (xy 5.08 5.08))
+        (pts
+          (xy 6.35 5.08)
+          (xy 5.08 5.08)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy 8.89 -5.08) (xy 6.35 -5.08))
+        (pts
+          (xy 8.89 -5.08)
+          (xy 6.35 -5.08)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy 8.89 -2.54) (xy 6.35 -2.54))
+        (pts
+          (xy 8.89 -2.54)
+          (xy 6.35 -2.54)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy 8.89 2.54) (xy 6.35 2.54))
+        (pts
+          (xy 8.89 2.54)
+          (xy 6.35 2.54)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy 8.89 5.08) (xy 6.35 5.08))
+        (pts
+          (xy 8.89 5.08)
+          (xy 6.35 5.08)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy 2.54 -2.54) (xy 0 -2.54) (xy -3.81 -2.54))
+        (pts
+          (xy 2.54 -2.54)
+          (xy 0 -2.54)
+          (xy -3.81 -2.54)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy 2.54 2.54) (xy 1.27 2.54) (xy 1.27 -5.08))
+        (pts
+          (xy 2.54 2.54)
+          (xy 1.27 2.54)
+          (xy 1.27 -5.08)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy 2.54 5.08) (xy -0.635 5.08) (xy -0.635 -2.54))
+        (pts
+          (xy 2.54 5.08)
+          (xy -0.635 5.08)
+          (xy -0.635 -2.54)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy -6.35 -1.27) (xy -6.35 -6.35) (xy -1.27 -3.81) (xy -6.35 -1.27))
+        (pts
+          (xy -6.35 -1.27)
+          (xy -6.35 -6.35)
+          (xy -1.27 -3.81)
+          (xy -6.35 -1.27)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy 2.54 -1.27) (xy 2.54 -6.35) (xy 7.62 -3.81) (xy 2.54 -1.27))
+        (pts
+          (xy 2.54 -1.27)
+          (xy 2.54 -6.35)
+          (xy 7.62 -3.81)
+          (xy 2.54 -1.27)
+        )
         (stroke (width 0)) (fill (type none))
       )
       (polyline
-        (pts (xy 2.54 6.35) (xy 2.54 1.27) (xy 7.62 3.81) (xy 2.54 6.35))
+        (pts
+          (xy 2.54 6.35)
+          (xy 2.54 1.27)
+          (xy 7.62 3.81)
+          (xy 2.54 6.35)
+        )
         (stroke (width 0)) (fill (type none))
       )
     )
@@ -5000,7 +5625,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:TCS37717"
+  (symbol "MLAB_IO:TCS37717" (in_bom yes) (on_board yes)
     (property "Reference" "X" (id 0) (at 3.81 5.08 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -5048,7 +5673,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:TLC27L2ID" (pin_names (offset 0.508))
+  (symbol "MLAB_IO:TLC27L2ID" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 3.81 7.62 0)
       (effects (font (size 1.778 1.778)))
     )
@@ -5069,7 +5694,12 @@
     )
     (symbol "TLC27L2ID_0_1"
       (polyline
-        (pts (xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08))
+        (pts
+          (xy -5.08 5.08)
+          (xy 5.08 0)
+          (xy -5.08 -5.08)
+          (xy -5.08 5.08)
+        )
         (stroke (width 0)) (fill (type none))
       )
     )
@@ -5118,7 +5748,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:TPS2001CDGNR"
+  (symbol "MLAB_IO:TPS2001CDGNR" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -1.27 5.08 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -5178,7 +5808,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:TPS22919DCK"
+  (symbol "MLAB_IO:TPS22919DCK" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 1.27 -10.16 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -5219,7 +5849,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:TPS22965-Q1"
+  (symbol "MLAB_IO:TPS22965-Q1" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -2.54 5.08 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -5276,7 +5906,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:TPS4H160-Q1-B"
+  (symbol "MLAB_IO:TPS4H160-Q1-B" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0 0 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -5404,7 +6034,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:TPS61322xA"
+  (symbol "MLAB_IO:TPS61322xA" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0 0 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -5440,7 +6070,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:TPS74801RGWR"
+  (symbol "MLAB_IO:TPS74801RGWR" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -1.27 5.08 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -5548,7 +6178,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:TPS76601"
+  (symbol "MLAB_IO:TPS76601" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -3.81 16.51 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -5607,7 +6237,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:TPS7A4533KTTR"
+  (symbol "MLAB_IO:TPS7A4533KTTR" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -1.27 5.08 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -5655,7 +6285,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:TS5A4594"
+  (symbol "MLAB_IO:TS5A4594" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 3.81 7.62 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -5696,7 +6326,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:TUSB8041"
+  (symbol "MLAB_IO:TUSB8041" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -22.86 48.26 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -5980,7 +6610,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:VEML6030"
+  (symbol "MLAB_IO:VEML6030" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -7.62 15.24 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -6028,7 +6658,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:VNQ7050AJ"
+  (symbol "MLAB_IO:VNQ7050AJ" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 3.81 0 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -6109,7 +6739,7 @@
       )
     )
   )
-  (symbol "MLAB_IO:WM8786"
+  (symbol "MLAB_IO:WM8786" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -6.35 19.05 0)
       (effects (font (size 1.524 1.524)))
     )
