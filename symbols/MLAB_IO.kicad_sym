@@ -4365,7 +4365,7 @@
     (property "Value" "SAW_AFS434S3-T_AFS869S3-T" (id 1) (at 0 6.35 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (id 2) (at 0 0 0)
+    (property "Footprint" "MLAB_SAW:ABRACON_AFS" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at -1.778 0.762 0)
@@ -4375,9 +4375,6 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Dielectric Band Pass Filter for 1575MHz" (id 5) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "Filter*1109*1.1x0.9mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "SAW_AFS434S3-T_AFS869S3-T_0_1"
