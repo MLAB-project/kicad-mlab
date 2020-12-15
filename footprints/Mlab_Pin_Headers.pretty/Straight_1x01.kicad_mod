@@ -1,22 +1,28 @@
-(module Straight_1x01 (layer F.Cu) (tedit 5C6FA06B)
+(module "Straight_1x01" (layer "F.Cu") (tedit 5FD8D6DF)
   (descr "pin header straight 1x01")
   (tags "pin header straight 1x01")
-  (fp_text reference J6 (at 0 -2.54) (layer F.SilkS) hide
+  (attr through_hole)
+  (fp_text reference "J6" (at 0 -2.54) (layer "F.SilkS") hide
     (effects (font (size 1.5 1.5) (thickness 0.15)))
+    (tstamp 590561d7-79a0-4603-853f-c1924396a4c2)
   )
-  (fp_text value CONN1_1 (at 0 2.54) (layer F.SilkS) hide
+  (fp_text value "CONN1_1" (at 0 2.54) (layer "F.SilkS") hide
     (effects (font (size 1.5 1.5) (thickness 0.15)))
+    (tstamp 7540a68d-cd27-4086-976a-236d980677d5)
   )
-  (fp_text user 1 (at -1.651 0) (layer F.SilkS) hide
+  (fp_text user "1" (at -1.651 0) (layer "F.SilkS") hide
     (effects (font (size 0.5 0.5) (thickness 0.05)))
+    (tstamp c8332cd4-7817-436b-a829-e32dad45a7db)
   )
-  (fp_line (start -1.27 -1.27) (end 1.27 -1.27) (layer F.SilkS) (width 0.15))
-  (fp_line (start 1.27 -1.27) (end 1.27 1.27) (layer F.SilkS) (width 0.15))
-  (fp_line (start 1.27 1.27) (end -1.27 1.27) (layer F.SilkS) (width 0.15))
-  (fp_line (start -1.27 1.27) (end -1.27 -1.27) (layer F.SilkS) (width 0.15))
-  (pad 1 thru_hole rect (at 0 0) (size 1.524 1.524) (drill 0.889) (layers *.Cu *.Mask F.SilkS))
-  (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x01_P2.54mm_Vertical.wrl
-    (at (xyz 0 0 0))
+  (fp_line (start -1.27 1.143) (end -1.27 -1.143) (layer "F.SilkS") (width 0.15) (tstamp 3fea6757-f849-4acc-9621-b3a99871d71a))
+  (fp_line (start -1.143 -1.27) (end 1.143 -1.27) (layer "F.SilkS") (width 0.15) (tstamp 6b928f58-ff68-4fbe-b9ba-38712e3ecf1c))
+  (fp_line (start 1.27 -1.27) (end 1.27 1.27) (layer "F.Fab") (width 0.15) (tstamp 43468fae-957c-4216-87ae-48c688af5a47))
+  (fp_line (start 1.27 1.27) (end -1.27 1.27) (layer "F.Fab") (width 0.15) (tstamp 594c9988-22c1-49d9-a4d3-8ebcf99c2293))
+  (fp_line (start -1.27 1.27) (end -1.27 -1.27) (layer "F.Fab") (width 0.15) (tstamp 9fb6aa3b-c236-4dc1-bada-8b5a6686df18))
+  (fp_line (start -1.27 -1.27) (end 1.27 -1.27) (layer "F.Fab") (width 0.15) (tstamp d916796a-1ad7-4b67-ad9d-3431ed8d9412))
+  (pad "1" thru_hole rect (at 0 0) (size 1.524 1.524) (drill 0.889) (layers *.Cu *.Mask) (tstamp e86ca6d9-41f6-4219-9acf-16486815dcbe))
+  (model "${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x01_P2.54mm_Vertical.wrl"
+    (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
   )
