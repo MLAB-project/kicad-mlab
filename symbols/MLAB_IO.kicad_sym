@@ -4719,7 +4719,7 @@
     (property "Value" "SHT31" (id 1) (at 0 0 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "" (id 2) (at -1.27 -8.89 0)
+    (property "Footprint" "Mlab_IO:DFN-8-1EP_2.4x2.4mm_Pitch0.5mm" (id 2) (at -1.27 -8.89 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Datasheet" "" (id 3) (at -1.27 -8.89 0)
