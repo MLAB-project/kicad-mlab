@@ -2500,6 +2500,10 @@
         (name "SW" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
+      (pin unspecified line (at 0 -13.97 90) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "9" (effects (font (size 1.27 1.27))))
+      )
     )
   )
   (symbol "MLAB_IO:LT6600" (pin_names (offset 0)) (in_bom yes) (on_board yes)
