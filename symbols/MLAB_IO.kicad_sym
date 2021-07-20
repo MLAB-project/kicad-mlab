@@ -2864,6 +2864,10 @@
         (name "~" (effects (font (size 1.27 1.27))))
         (number "34" (effects (font (size 1.27 1.27))))
       )
+      (pin power_in line (at -1.27 0 90) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "35" (effects (font (size 1.27 1.27))))
+      )
       (pin input line (at -13.97 3.81 0) (length 2.54)
         (name "~" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
