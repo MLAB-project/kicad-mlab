@@ -1,5 +1,6 @@
-(footprint "dira_3mm" (version 20210228) (generator pcbnew) (layer "F.Cu")
-  (tedit 60A7B08B)
+(footprint "dira_3mm" (version 20221232) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61DFF20A)
   (attr through_hole)
   (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
@@ -9,5 +10,5 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp dcb6a5db-4a98-45df-82af-ba595baeb3de)
   )
-  (pad "" np_thru_hole circle locked (at 0 0) (size 3 3) (drill 3) (layers *.Mask) (tstamp 11eeb616-2553-45cc-b9ad-60bee44a81da))
+  (pad "" np_thru_hole circle (at 0 0) (size 3 3) (drill 3) (layers *.Mask) (tstamp 11eeb616-2553-45cc-b9ad-60bee44a81da))
 )
