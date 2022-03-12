@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20220102) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
   (symbol "LOGO" (pin_names (offset 1.016)) (in_bom no) (on_board yes)
     (property "Reference" "G" (id 0) (at 0 6.4676 0)
       (effects (font (size 1.27 1.27)))
