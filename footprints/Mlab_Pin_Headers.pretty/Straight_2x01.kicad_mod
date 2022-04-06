@@ -1,4 +1,6 @@
-(module "Straight_2x01" (layer "F.Cu") (tedit 5F9A9B42)
+(footprint "Straight_2x01" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 624D353F)
   (descr "pin header straight 2x01")
   (tags "pin header straight 2x01")
   (attr through_hole)
@@ -19,7 +21,7 @@
   (fp_line (start -2.54 1.27) (end -2.54 -1.27) (layer "F.Fab") (width 0.15) (tstamp c00a19c2-88b3-44e5-8ba8-bf00df9eb6c8))
   (pad "1" thru_hole rect (at -1.27 0) (size 1.524 1.524) (drill 0.889) (layers *.Cu *.Mask) (tstamp 6f06d351-abf6-4071-9d4f-0e6d53456bb6))
   (pad "2" thru_hole rect (at 1.27 0) (size 1.524 1.524) (drill 0.889) (layers *.Cu *.Mask) (tstamp 24c4669d-f4f8-4857-8982-4667d3c34305))
-  (model "${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x01_P2.54mm_Vertical.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x01_P2.54mm_Vertical.wrl"
     (offset (xyz -1.27 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
