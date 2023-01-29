@@ -72,7 +72,6 @@ class Mywin(wx.Frame):
         ed.SetWidth(int(pcbnew.DEFAULT_PCB_EDGE_THICKNESS * pcbnew.IU_PER_MM))
         board.Add(ed)
 
-
         components = self.holes.GetValue()
         coord = [ (0.5, 0.5),
                   (0.5 + size[0], 0.5),
@@ -84,6 +83,10 @@ class Mywin(wx.Frame):
             co = board.FindFootprintByReference(comp)
             co.SetPosition(pcbnew.wxPointMM(coord[i][0]*10.16+offset[0], coord[i][1]*10.16+offset[1]))
 
+        print("ORIGIN....")
+        bset = board.GetDesignSettings()
+        opos = pcbnew.wxPointMM(offset[0], offset[1])
+        bset.SetGridOrigin(opos)
         #board.RefillBoardAreas()
         pcbnew.Refresh()
 
