@@ -7,7 +7,7 @@
 #mkdir -p ~/kicad_sources
 #cp -r footprints ~/kicad_sources/
 #sudo cp -r symbols /usr/share/kicad/library/
-ln -s "$(realpath template)" ~/.local/share/kicad/6.0/template/
+ln -s "$(realpath template/mlab-default/)" ~/.local/share/kicad/6.0/template/
 #sudo cp -r modules /usr/share/kicad/
 
 #kicad-footprint-manager  -f ~/kicad_sources/footprints
