@@ -12,12 +12,5 @@ To install everthing just type:
 ```sh
 $ ./install-all.sh
 ```
-
-KiCad Footprint Manager
------------------------
-Downloads/updates .pretty repositories for offline use.
-To download/update repositories from [KiCad](https://github.com/KiCad) use this:
-
-```sh
-$ kicad-footprint-manager  -f ~/kicad_sources/footprints
-```
+This script make symlinks from cloned kicad-mlab repository to `~/.config/kicad/6.0/` for templates, footprints, symbols and plugins. 
+Then the symbol and footprint libraries should be added and opened in KiCAD manually. 
