@@ -85,8 +85,9 @@ class Mywin(wx.Frame):
 
         print("ORIGIN....")
         bset = board.GetDesignSettings()
-        opos = pcbnew.wxPointMM(offset[0], offset[1])
+        opos = pcbnew.wxPointMM(offset[0]+10.16*(-0.5), offset[1]+10.16*(size[1]+1.5))
         bset.SetGridOrigin(opos)
+        bset.SetAuxOrigin(opos)
         #board.RefillBoardAreas()
         pcbnew.Refresh()
 
