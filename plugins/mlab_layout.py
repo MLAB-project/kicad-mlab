@@ -5,10 +5,23 @@ import wx
 import wx.xrc
 
 class Mywin(wx.Frame): 
+   
+   
             
    def __init__(self, parent, title): 
         super(Mywin, self).__init__(parent, title = title,size = (300,200))  
-            
+
+        self.pcbnew_version = int(pcbnew.Version()[0])
+        if self.pcbnew_version == 7:
+            self.ui_mm = pcbnew.PCB_IU_PER_MM
+            self.VECTOR_MM = pcbnew.VECTOR2I_MM
+        elif self.pcbnew_version == 6:
+            self.ui_mm = pcbnew.IU_PER_MM
+            self.VECTOR_MM = pcbnew.wxPointMM
+        else:
+            print("Nepodporovana verze KICAD PCBNEW")
+            exit();
+
         self.InitUI() 
          
    def InitUI(self):    
@@ -20,8 +33,8 @@ class Mywin(wx.Frame):
         hbox2 = wx.BoxSizer(wx.HORIZONTAL) 
         hbox3 = wx.BoxSizer(wx.HORIZONTAL) 
 
-        self.sizex = wx.SpinCtrl(pnl, size = (250, 25))
-        self.sizey = wx.SpinCtrl(pnl, size = (250, 25))
+        self.sizex = wx.SpinCtrl(pnl, size = (250, 25), initial = 3)
+        self.sizey = wx.SpinCtrl(pnl, size = (250, 25), initial = 3)
         self.holes = wx.TextCtrl(pnl, size = (250, 25), value = "M1,M2,M3,M4")
         self.btn1 = wx.Button(pnl, label = "Prepare module layout") 
         self.Bind(wx.EVT_BUTTON, self.OnClick, self.btn1) 
@@ -60,16 +73,16 @@ class Mywin(wx.Frame):
             if d.GetLayer() == pcbnew.Edge_Cuts:
                 board.Remove(d)
 
-        #offset = (board.GetCenter()[0]/pcbnew.IU_PER_MM-10.16*(size[0]+1)/2, board.GetCenter()[1]/pcbnew.IU_PER_MM-10.16*(size[1]+1)/2)
+        #offset = (board.GetCenter()[0]/self.ui_mm-10.16*(size[0]+1)/2, board.GetCenter()[1]/self.ui_mm-10.16*(size[1]+1)/2)
         offset = (297/2-10.16*(size[0]+1)/2, 210/2-10.16*(size[1]+1)/2)
 
         ed = pcbnew.PCB_SHAPE(board)
         ed.SetShape(pcbnew.SHAPE_T_RECT)
         ed.SetFilled(False)
-        ed.SetStart(pcbnew.wxPointMM(offset[0]+0.254, offset[1]+0.254))
-        ed.SetEnd(pcbnew.wxPointMM(offset[0]+10.16*(size[0]+1) - 0.254, offset[1]+10.16*(size[1]+1) - 0.254))
+        ed.SetStart(self.VECTOR_MM(offset[0]+0.254, offset[1]+0.254))
+        ed.SetEnd(self.VECTOR_MM(offset[0]+10.16*(size[0]+1) - 0.254, offset[1]+10.16*(size[1]+1) - 0.254))
         ed.SetLayer(pcbnew.Edge_Cuts)
-        ed.SetWidth(int(pcbnew.DEFAULT_PCB_EDGE_THICKNESS * pcbnew.IU_PER_MM))
+        ed.SetWidth(int(pcbnew.DEFAULT_PCB_EDGE_THICKNESS * self.ui_mm))
         board.Add(ed)
 
         components = self.holes.GetValue()
@@ -81,11 +94,11 @@ class Mywin(wx.Frame):
         for i, comp in enumerate(components.split(",")):
             print(i, comp)
             co = board.FindFootprintByReference(comp)
-            co.SetPosition(pcbnew.wxPointMM(coord[i][0]*10.16+offset[0], coord[i][1]*10.16+offset[1]))
+            co.SetPosition(self.VECTOR_MM(coord[i][0]*10.16+offset[0], coord[i][1]*10.16+offset[1]))
 
         print("ORIGIN....")
         bset = board.GetDesignSettings()
-        opos = pcbnew.wxPointMM(offset[0]+10.16*(-0.5), offset[1]+10.16*(size[1]+1.5))
+        opos = self.VECTOR_MM(offset[0]+10.16*(-0.5), offset[1]+10.16*(size[1]+1.5))
         bset.SetGridOrigin(opos)
         bset.SetAuxOrigin(opos)
         #board.RefillBoardAreas()
