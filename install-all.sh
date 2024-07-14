@@ -5,7 +5,13 @@
 #sudo cp src/kicad-footprint-manager /usr/bin/kicad-footprint-manager
 
 
-if [ -d "${HOME}/.local/share/kicad/7.0/" ]
+if [ -d "${HOME}/.local/share/kicad/8.0/" ]
+then
+    echo "Installing for KICAD 8, user folder"
+    BASEFOLDER="${HOME}/.local/share/kicad/8.0/"
+    VERSION=8
+
+elif [ -d "${HOME}/.local/share/kicad/7.0/" ]
 then
     echo "Installing for KICAD 7, user folder"
     BASEFOLDER="${HOME}/.local/share/kicad/7.0/"
@@ -22,9 +28,9 @@ else
     exit
 fi
 
-echo "Pouzivam slozku:"
+echo "Using the directory:"
 echo ${BASEFOLDER}
-echo "Verze: ${VERSION}"
+echo "KiCAD version: ${VERSION}"
 
 #mkdir -p ~/kicad_sources
 #cp -r footprints ~/kicad_sources/
