@@ -1,35 +1,184 @@
-(module TantalC_SizeC_Reflow (layer F.Cu) (tedit 5C6D17E8)
-  (descr "Tantal Cap. , Size C, EIA-6032, Reflow,")
-  (tags "Tantal Cap. , Size C, EIA-6032, Reflow,")
-  (attr smd)
-  (fp_text reference REF** (at 0 -2.85) (layer F.SilkS)
-    (effects (font (size 1.524 1.524) (thickness 0.3048)))
-  )
-  (fp_text value VAL** (at 0 3) (layer F.SilkS) hide
-    (effects (font (size 1.524 1.524) (thickness 0.3048)))
-  )
-  (fp_line (start -4.30022 -1.69926) (end -4.30022 1.69926) (layer F.SilkS) (width 0.15))
-  (fp_line (start 2.99974 1.69926) (end -2.99974 1.69926) (layer F.SilkS) (width 0.15))
-  (fp_line (start 2.99974 -1.69926) (end -2.99974 -1.69926) (layer F.Fab) (width 0.15))
-  (fp_text user + (at -4.99872 -2.55016) (layer F.SilkS)
-    (effects (font (size 1.524 1.524) (thickness 0.3048)))
-  )
-  (fp_line (start -5.00126 -3.05308) (end -5.00126 -1.95326) (layer F.SilkS) (width 0.15))
-  (fp_line (start -5.6007 -2.5527) (end -4.40182 -2.5527) (layer F.SilkS) (width 0.15))
-  (fp_line (start 2.97688 -1.7018) (end -3.0226 -1.7018) (layer F.SilkS) (width 0.15))
-  (fp_line (start -4.318 -1.7018) (end -4.318 1.69672) (layer F.SilkS) (width 0.15))
-  (fp_line (start 2.97688 1.69926) (end -3.0226 1.69926) (layer F.Fab) (width 0.15))
-  (fp_text user + (at -5.0038 -2.54) (layer F.Fab)
-    (effects (font (size 1.5 1.5) (thickness 0.15)))
-  )
-  (fp_text user %R (at 0.1016 0) (layer F.Fab)
-    (effects (font (size 1.524 1.524) (thickness 0.3)))
-  )
-  (pad 2 smd rect (at 2.52476 0) (size 2.55016 2.49936) (layers F.Cu F.Paste F.Mask))
-  (pad 1 smd rect (at -2.52476 0) (size 2.55016 2.49936) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/Capacitor_Tantalum_SMD.3dshapes/CP_EIA-6032-28_Kemet-C.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "TantalC_SizeC_Reflow"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Tantal Cap. , Size C, EIA-6032, Reflow,")
+	(tags "Tantal Cap. , Size C, EIA-6032, Reflow,")
+	(property "Reference" "C18"
+		(at 0 -2.4384 180)
+		(layer "F.SilkS")
+		(uuid "5294ccc5-4521-4871-b2b9-49f15423dd85")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "100u"
+		(at 0 3 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d3f28b23-db34-4357-8833-9d42322306d0")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.3048)
+			)
+		)
+	)
+	(property "Footprint" "Mlab_C:TantalC_SizeC_Reflow"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5dc535f7-700e-4173-b55a-c1071a806aac")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "434f06b9-df90-472a-97d9-7862dfacfa8c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Polarized capacitor, small symbol"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "119d5074-ae2d-405b-b825-c24aa7b78a83")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.9624 -1.4732)
+		(end -3.9624 1.4224)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a04d2c20-7c4a-4360-88e2-f9bc64abc8b5")
+	)
+	(fp_line
+		(start -3.9624 -1.4732)
+		(end -3.9624 1.4224)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c3f618fd-6615-49b2-a999-657816bd2114")
+	)
+	(fp_line
+		(start 2.03708 -1.4732)
+		(end -3.9624 -1.4732)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2ffa112d-0e99-42b3-90b3-66d39cbbce50")
+	)
+	(fp_line
+		(start 2.08534 1.4224)
+		(end -3.9624 1.4224)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dea907da-4a7a-4eab-932f-194c805aa950")
+	)
+	(fp_line
+		(start 2.97688 1.69926)
+		(end -3.0226 1.69926)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9d749a1e-1d39-46ee-a78a-95990129d905")
+	)
+	(fp_line
+		(start 2.99974 -1.69926)
+		(end -2.99974 -1.69926)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c9e2c853-84df-44e0-99fd-3b6ff19b389b")
+	)
+	(fp_text user "+"
+		(at -5 -2.4892 0)
+		(layer "F.SilkS")
+		(uuid "aa23a8b1-02da-4c72-bedc-23b356c32da2")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at -5.0038 -2.54 0)
+		(layer "F.Fab")
+		(uuid "77b5ff4e-43e7-4bcd-9d86-24ff6a79e50d")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.1016 0 0)
+		(layer "F.Fab")
+		(uuid "8997da0a-d594-417a-bc06-643fec91cbdc")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.3)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.52476 0)
+		(size 2.55016 2.49936)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5c40a7a4-d9fb-4723-9fea-e24ba9e34b7e")
+	)
+	(pad "2" smd rect
+		(at 2.52476 0)
+		(size 2.55016 2.49936)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "51f4ea45-b8d7-468e-ae05-883de8a8345d")
+	)
+	(model "${KISYS3DMOD}/Capacitor_Tantalum_SMD.3dshapes/CP_EIA-6032-28_Kemet-C.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
