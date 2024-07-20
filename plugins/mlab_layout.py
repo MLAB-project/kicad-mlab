@@ -6,7 +6,7 @@ import wx.xrc
 class Mywin(wx.Frame):
 
     def __init__(self, parent, title):
-        super(Mywin, self).__init__(parent, title = title, size = (300, 200))
+        super(Mywin, self).__init__(parent, title=title, size=(300, 200))
 
         self.pcbnew_version = int(pcbnew.Version()[0])
         print(f"Detected KiCAD version: {self.pcbnew_version}")
@@ -91,23 +91,28 @@ class Mywin(wx.Frame):
                  (0.5, 0.5 + size[1]),
                  (0.5 + size[0], 0.5 + size[1]),
                  ]
+        missing_components = []
         for i, comp in enumerate(components.split(",")):
             print(i, comp)
             co = board.FindFootprintByReference(comp)
             if co is None:
                 print(f"Footprint '{comp}' not found.")
+                missing_components.append(comp)
                 continue
             co.SetPosition(self.VECTOR_MM(coord[i][0] * 10.16 + offset[0], coord[i][1] * 10.16 + offset[1]))
 
-        print("ORIGIN....")
-        bset = board.GetDesignSettings()
-        opos = self.VECTOR_MM(offset[0] + 10.16 * (-0.5), offset[1] + 10.16 * (size[1] + 1.5))
-        bset.SetGridOrigin(opos)
-        bset.SetAuxOrigin(opos)
-        # board.RefillBoardAreas()
-        pcbnew.Refresh()
-
-        self.Close()
+        if missing_components:
+            wx.MessageBox(f"The following footprints were not found: {', '.join(missing_components)}",
+                          "Footprints Missing", wx.OK | wx.ICON_WARNING)
+        else:
+            print("All footprints were found and positioned correctly.")
+            print("ORIGIN....")
+            bset = board.GetDesignSettings()
+            opos = self.VECTOR_MM(offset[0] + 10.16 * (-0.5), offset[1] + 10.16 * (size[1] + 1.5))
+            bset.SetGridOrigin(opos)
+            bset.SetAuxOrigin(opos)
+            # board.RefillBoardAreas()
+            pcbnew.Refresh()
 
 class SimplePlugin(pcbnew.ActionPlugin):
     def defaults(self):
