@@ -65,16 +65,28 @@
 		)
 	)
 	(attr smd)
-	(fp_circle
-		(center -2.4 -2.4)
-		(end -2.3 -2.4)
+	(fp_poly
+		(pts
+			(xy -2.06 -1.97) (xy -2.3 -2.3) (xy -1.82 -2.3) (xy -2.06 -1.97)
+		)
 		(stroke
-			(width 0.1)
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "65333bec-4ef0-4a6d-9788-3f753e4acf1e")
+	)
+	(fp_rect
+		(start -2.3 -2.3)
+		(end 2.3 2.3)
+		(stroke
+			(width 0.12)
 			(type default)
 		)
 		(fill none)
-		(layer "F.SilkS")
-		(uuid "1d1c58dc-b4ea-452b-95f0-6f62f76ea823")
+		(layer "F.CrtYd")
+		(uuid "a687d2fc-d3f5-4270-b8b6-2c53b8afcb55")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 1.25 -27.5 0)
