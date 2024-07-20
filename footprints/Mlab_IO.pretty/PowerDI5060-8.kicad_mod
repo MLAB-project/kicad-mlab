@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -0.5 0)
+		(at 0.02 -0.43 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "62ba0cdb-ec1f-4fdd-8535-95975c79db03")
@@ -67,6 +67,17 @@
 		)
 	)
 	(attr smd)
+	(fp_rect
+		(start -2.82 -5.98)
+		(end 2.83 0.67)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "ccfff42c-6f6e-47e2-9940-89f9adcbd9f4")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
