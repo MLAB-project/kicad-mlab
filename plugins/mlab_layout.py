@@ -94,6 +94,9 @@ class Mywin(wx.Frame):
         for i, comp in enumerate(components.split(",")):
             print(i, comp)
             co = board.FindFootprintByReference(comp)
+            if co is None:
+                print(f"Footprint '{comp}' not found.")
+                continue
             co.SetPosition(self.VECTOR_MM(coord[i][0] * 10.16 + offset[0], coord[i][1] * 10.16 + offset[1]))
 
         print("ORIGIN....")
