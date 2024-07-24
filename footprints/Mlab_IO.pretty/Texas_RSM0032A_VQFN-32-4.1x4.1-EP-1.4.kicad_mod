@@ -74,7 +74,7 @@
 			)
 		)
 	)
-	(attr through_hole)
+	(attr smd)
 	(fp_line
 		(start -2.11 2.11)
 		(end -2.11 1.76)
@@ -268,13 +268,6 @@
 		(layers "F.Paste")
 		(roundrect_rratio 0.198)
 		(uuid "0ac6f656-1fec-4ce7-a9ef-1c8794075689")
-	)
-	(pad "" smd roundrect
-		(at 0.35 0.35)
-		(size 0.6 0.6)
-		(layers "F.Paste")
-		(roundrect_rratio 0.198)
-		(uuid "1e7df803-6826-4f61-8404-02d308a54aa9")
 	)
 	(pad "1" smd roundrect
 		(at -2 -1.4)
@@ -501,20 +494,12 @@
 		(uuid "3edfa1a2-7d7d-4c39-ad58-6c8567becff4")
 	)
 	(pad "33" thru_hole circle
-		(at -0.35 -0.35)
+		(at 0 0)
 		(size 0.5 0.5)
 		(drill 0.2)
-		(layers "*.Cu")
+		(layers "*.Cu" "B.Mask")
 		(remove_unused_layers no)
 		(uuid "ee773514-3966-4393-ac79-cdf40d664122")
-	)
-	(pad "33" thru_hole circle
-		(at -0.35 0.35)
-		(size 0.5 0.5)
-		(drill 0.2)
-		(layers "*.Cu")
-		(remove_unused_layers no)
-		(uuid "29b36c29-f32e-4ee7-92c3-9f66ec8d5c51")
 	)
 	(pad "33" smd roundrect
 		(at 0 0)
@@ -529,22 +514,6 @@
 		(layers "B.Cu")
 		(roundrect_rratio 0.086)
 		(uuid "eb7c6c87-af2e-4b59-af9d-518e7202dc68")
-	)
-	(pad "33" thru_hole circle
-		(at 0.35 -0.35)
-		(size 0.5 0.5)
-		(drill 0.2)
-		(layers "*.Cu")
-		(remove_unused_layers no)
-		(uuid "99ce4da3-4004-4dd0-80ad-b28686a9e233")
-	)
-	(pad "33" thru_hole circle
-		(at 0.35 0.35)
-		(size 0.5 0.5)
-		(drill 0.2)
-		(layers "*.Cu")
-		(remove_unused_layers no)
-		(uuid "dc65a37c-85e9-48fe-b72e-23873fce0c0e")
 	)
 	(model "${KISYS3DMOD}/Package_DFN_QFN.3dshapes/QFN-32-1EP_4x4mm_P0.4mm_EP2.65x2.65mm.step"
 		(offset
