@@ -4,8 +4,12 @@
 #sudo chmod +x src/kicad-footprint-manager
 #sudo cp src/kicad-footprint-manager /usr/bin/kicad-footprint-manager
 
-
-if [ -d "${HOME}/.local/share/kicad/8.0/" ]
+if [ -d "${HOME}/.local/share/kicad/9.0/" ]
+then
+    echo "Installing for KICAD 9, user folder"
+    BASEFOLDER="${HOME}/.local/share/kicad/9.0/"
+    VERSION=9
+elif [ -d "${HOME}/.local/share/kicad/8.0/" ]
 then
     echo "Installing for KICAD 8, user folder"
     BASEFOLDER="${HOME}/.local/share/kicad/8.0/"
