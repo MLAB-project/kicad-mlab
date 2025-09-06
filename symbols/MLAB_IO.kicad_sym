@@ -29187,21 +29187,19 @@
 				(hide yes)
 			)
 		)
-		(symbol "Si1060-A-GM_0_1"
+		(symbol "Si1060-A-GM_1_1"
 			(rectangle
 				(start -17.78 38.1)
 				(end 20.32 -44.45)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "Si1060-A-GM_1_1"
-			(pin bidirectional line
+			(pin passive line
 				(at -20.32 33.02 0)
 				(length 2.54)
 				(name "RXN"
@@ -29219,7 +29217,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -20.32 17.78 0)
 				(length 2.54)
 				(name "RXP"
@@ -29237,7 +29235,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin open_collector line
 				(at -20.32 -29.21 0)
 				(length 2.54)
 				(name "TX"
@@ -29273,7 +29271,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at -10.16 -46.99 90)
 				(length 2.54)
 				(hide yes)
@@ -29292,7 +29290,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at -10.16 -46.99 90)
 				(length 2.54)
 				(hide yes)
@@ -29311,7 +29309,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at -10.16 -46.99 90)
 				(length 2.54)
 				(name "GND_RF"
@@ -29329,7 +29327,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at -10.16 -46.99 90)
 				(length 2.54)
 				(hide yes)
@@ -29348,7 +29346,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at -10.16 -46.99 90)
 				(length 2.54)
 				(hide yes)
@@ -29367,7 +29365,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin free line
 				(at -3.81 1.27 0)
 				(length 2.54)
 				(hide yes)
@@ -29386,7 +29384,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin free line
 				(at -3.81 0 0)
 				(length 2.54)
 				(hide yes)
@@ -29405,7 +29403,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin free line
 				(at -3.81 -1.27 0)
 				(length 2.54)
 				(hide yes)
@@ -29442,7 +29440,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at 0 -46.99 90)
 				(length 2.54)
 				(name "GND_MCU"
@@ -29694,7 +29692,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin output line
 				(at 22.86 2.54 180)
 				(length 2.54)
 				(name "TXRAMP"
@@ -29712,7 +29710,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin input line
 				(at 22.86 0 180)
 				(length 2.54)
 				(name "#RST/C2CK"
@@ -29820,7 +29818,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at 22.86 -22.86 180)
 				(length 2.54)
 				(name "VDD_RF"
@@ -29838,7 +29836,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at 22.86 -22.86 180)
 				(length 2.54)
 				(hide yes)
@@ -29857,7 +29855,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at 22.86 -43.18 180)
 				(length 2.54)
 				(name "VDD_MCU"
