@@ -23798,23 +23798,23 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
-			(at -5.08 10.16 0)
+		(property "Reference" "U1"
+			(at -6.35 11.43 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Value" "PCF8583"
-			(at 7.62 10.16 0)
+		(property "Value" "PCF8583T"
+			(at 7.62 11.43 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Mlab_IO:SOT176-1"
 			(at 0 17.78 0)
 			(effects
 				(font
@@ -23823,7 +23823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/PCF8583.pdf"
 			(at 0 17.78 0)
 			(effects
 				(font
@@ -23833,6 +23833,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "5c70984712875079b91f8b59"
 			(at 0 0 0)
 			(effects
 				(font
@@ -23903,7 +23912,7 @@
 			(pin input line
 				(at -10.16 -1.27 0)
 				(length 2.54)
-				(name "#RESET"
+				(name "A0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -23919,7 +23928,7 @@
 				)
 			)
 			(pin power_in line
-				(at 1.27 11.43 270)
+				(at 0 11.43 270)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -23937,7 +23946,7 @@
 				)
 			)
 			(pin power_in line
-				(at 1.27 -7.62 90)
+				(at 0 -7.62 90)
 				(length 2.54)
 				(name "VSS"
 					(effects
