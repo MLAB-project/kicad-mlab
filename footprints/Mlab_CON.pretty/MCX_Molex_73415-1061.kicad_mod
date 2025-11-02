@@ -5,8 +5,8 @@
 	(layer "F.Cu")
 	(descr "https://www.molex.com/pdm_docs/sd/734151061_sd.pdf")
 	(property "Reference" "REF**"
-		(at 0 -4.572 0)
-		(layer "F.SilkS")
+		(at 3.5 0 270)
+		(layer "B.SilkS")
 		(uuid "a632aa3e-0113-4f5d-90b5-27bac9ed8392")
 		(effects
 			(font
@@ -232,9 +232,9 @@
 		(layer "F.Fab")
 		(uuid "81d7db25-c179-4d9d-b74b-6c074422c80f")
 	)
-	(fp_text user "PCB edge"
-		(at -3.35 0 90)
-		(layer "Dwgs.User")
+	(fp_text user "Keep pads cooper to PCB edge"
+		(at -3.5 0 180)
+		(layer "F.SilkS")
 		(uuid "5126ac84-dc56-4e60-b120-fd81ef65886b")
 		(effects
 			(font
@@ -260,153 +260,26 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d5605fa7-538d-473c-8da8-4e6409672b1d")
 	)
-	(pad "2" thru_hole custom
+	(pad "2" thru_hole rect
 		(at 3.175 -2.875)
-		(size 3.35 1.5)
-		(drill 0.3)
+		(size 8.35 1.5)
+		(drill 0.2
+			(offset -3.8 0)
+		)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(options
-			(clearance outline)
-			(anchor rect)
-		)
-		(primitives
-			(gr_poly
-				(pts
-					(xy -1.675 0.35) (xy -8.125 0.35) (xy -8.125 -0.75) (xy -1.675 -0.75)
-				)
-				(width 0)
-				(fill yes)
-			)
-		)
 		(uuid "78ce8c1e-89e0-4419-807a-81faccaa13a1")
-		(padstack
-			(mode front_inner_back)
-			(layer "Inner"
-				(shape custom)
-				(size 3.35 1.5)
-				(options
-					(anchor rect)
-				)
-				(primitives
-					(gr_poly
-						(pts
-							(xy -1.675 0.35) (xy -8.125 0.35) (xy -8.125 -0.75) (xy -1.675 -0.75)
-						)
-						(width 0)
-						(fill yes)
-					)
-					(gr_poly
-						(pts
-							(xy -1.675 0.35) (xy -8.125 0.35) (xy -8.125 -0.75) (xy -1.675 -0.75)
-						)
-						(width 0)
-						(fill yes)
-					)
-				)
-				(thermal_bridge_angle 45)
-				(zone_connect -1)
-			)
-			(layer "B.Cu"
-				(shape custom)
-				(size 3.35 1.5)
-				(options
-					(anchor rect)
-				)
-				(primitives
-					(gr_poly
-						(pts
-							(xy -1.675 0.35) (xy -8.125 0.35) (xy -8.125 -0.75) (xy -1.675 -0.75)
-						)
-						(width 0)
-						(fill yes)
-					)
-					(gr_poly
-						(pts
-							(xy -1.675 0.35) (xy -8.125 0.35) (xy -8.125 -0.75) (xy -1.675 -0.75)
-						)
-						(width 0)
-						(fill yes)
-					)
-				)
-				(thermal_bridge_angle 45)
-				(zone_connect -1)
-			)
-		)
 	)
-	(pad "2" thru_hole custom
-		(at 3.175 2.875 180)
-		(size 3.35 1.5)
-		(drill 0.3)
+	(pad "2" thru_hole rect
+		(at 3.175 2.875)
+		(size 8.35 1.5)
+		(drill 0.2
+			(offset -3.8 0)
+		)
 		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(options
-			(clearance outline)
-			(anchor rect)
-		)
-		(primitives
-			(gr_poly
-				(pts
-					(xy 8.125 0.35) (xy 1.675 0.35) (xy 1.675 -0.75) (xy 8.125 -0.75)
-				)
-				(width 0)
-				(fill yes)
-			)
-		)
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
 		(uuid "a65badee-7140-4898-a1c2-51161ba57a55")
-		(padstack
-			(mode front_inner_back)
-			(layer "Inner"
-				(shape custom)
-				(size 3.35 1.5)
-				(options
-					(anchor rect)
-				)
-				(primitives
-					(gr_poly
-						(pts
-							(xy 8.125 0.35) (xy 1.675 0.35) (xy 1.675 -0.75) (xy 8.125 -0.75)
-						)
-						(width 0)
-						(fill yes)
-					)
-					(gr_poly
-						(pts
-							(xy 8.125 0.35) (xy 1.675 0.35) (xy 1.675 -0.75) (xy 8.125 -0.75)
-						)
-						(width 0)
-						(fill yes)
-					)
-				)
-				(thermal_bridge_angle 45)
-				(zone_connect -1)
-			)
-			(layer "B.Cu"
-				(shape custom)
-				(size 3.35 1.5)
-				(options
-					(anchor rect)
-				)
-				(primitives
-					(gr_poly
-						(pts
-							(xy 8.125 0.35) (xy 1.675 0.35) (xy 1.675 -0.75) (xy 8.125 -0.75)
-						)
-						(width 0)
-						(fill yes)
-					)
-					(gr_poly
-						(pts
-							(xy 8.125 0.35) (xy 1.675 0.35) (xy 1.675 -0.75) (xy 8.125 -0.75)
-						)
-						(width 0)
-						(fill yes)
-					)
-				)
-				(thermal_bridge_angle 45)
-				(zone_connect -1)
-			)
-		)
 	)
 	(embedded_fonts no)
 	(model "${KISYS3DMOD_MLAB}/MOLEX_734151061.stp"
