@@ -1,22 +1,104 @@
-(module "GPS_CGGP.35.3.A.02" (layer "F.Cu") (tedit 5FA1073B)
-  (attr through_hole)
-  (fp_text reference "REF**" (at 15.24 5.08 unlocked) (layer "F.SilkS")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 841f1d10-a431-4519-a317-aa6f1135ff37)
-  )
-  (fp_text value "GPS_CGGP.35.3.A.02" (at 15.24 10.16 unlocked) (layer "F.Fab")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 0bdc6e17-4734-46d8-ba8f-599117bc014e)
-  )
-  (fp_rect (start 0 -17.5) (end 35 17.5) (layer "F.SilkS") (width 0.15) (tstamp 60dc214e-9d52-4d72-b040-f7b32f8b14db))
-  (fp_rect (start 0 -17.5) (end 35 17.5) (layer "F.Fab") (width 0.1) (tstamp 99c42a1f-5002-4e78-a722-a5de4e2333ea))
-  (pad "" np_thru_hole circle (at 13.3 0) (size 1.2 1.2) (drill 1.2) (layers *.Mask)
-    (clearance 0.9) (tstamp 6905cd4d-47ee-4056-bcdf-a993516bcc33))
-  (pad "1" smd circle (at 13.3 0) (size 2.5 2.5) (layers "B.Cu" "B.Paste" "B.Mask")
-    (clearance 0.5) (tstamp 69e08320-52fd-4776-9a73-4d78b4eb5804))
-  (model "${KISYS3DMOD_MLAB}/TAOGLAS_ANT_CGGP.35.3.A.02.step"
-    (offset (xyz 17.5 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 90 180 90))
-  )
+(footprint "GPS_CGGP.35.3.A.02"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 15.24 5.08 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "841f1d10-a431-4519-a317-aa6f1135ff37")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "GPS_CGGP.35.3.A.02"
+		(at 15.24 10.16 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0bdc6e17-4734-46d8-ba8f-599117bc014e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "25e3f533-cba0-4c14-91f7-2fc5f1559d56")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ae494cc9-5492-43eb-a411-4312457f0324")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start 0 -17.5)
+		(end 35 17.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "60dc214e-9d52-4d72-b040-f7b32f8b14db")
+	)
+	(fp_rect
+		(start 0 -17.5)
+		(end 35 17.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "99c42a1f-5002-4e78-a722-a5de4e2333ea")
+	)
+	(pad "" np_thru_hole circle
+		(at 13.3 0)
+		(size 1.2 1.2)
+		(drill 1.2)
+		(layers "*.Mask")
+		(clearance 0.9)
+		(uuid "6905cd4d-47ee-4056-bcdf-a993516bcc33")
+	)
+	(pad "1" smd circle
+		(at 13.3 0)
+		(size 2.5 2.5)
+		(layers "B.Cu" "B.Mask")
+		(clearance 0.5)
+		(uuid "69e08320-52fd-4776-9a73-4d78b4eb5804")
+	)
+	(embedded_fonts no)
+	(model "${KISYS3DMOD_MLAB}/TAOGLAS_ANT_CGGP.35.3.A.02.step"
+		(offset
+			(xyz 17.5 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 180 90)
+		)
+	)
 )
