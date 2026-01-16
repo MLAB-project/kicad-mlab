@@ -44,6 +44,7 @@ ln -s "$(realpath template/mlab-default/)" ${BASEFOLDER}template/
 echo $(realpath plugins/*.py) | tr " " "\n" | xargs -I % cp -s % ${BASEFOLDER}scripting/plugins/
 echo $(realpath footprints/*.pretty) | tr " " "\n" | xargs -I % ln -s % ${BASEFOLDER}footprints/
 echo $(realpath symbols/*.kicad_sym) | tr " " "\n" | xargs -I % cp -s % ${BASEFOLDER}symbols/
+echo $(realpath 3Dmodels/*.*) | tr " " "\n" | xargs -I % cp -s % ${BASEFOLDER}3dmodels/
 
 #sudo cp -r modules /usr/share/kicad/
 
