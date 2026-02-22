@@ -1,0 +1,436 @@
+(footprint "SFV8R2STE1HLF"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SFV6R-2STE1HLF-3")
+	(tags "Connector")
+	(property "Reference" "J8"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "eba76b66-29e1-42af-a721-f8fc70a94bed")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SFV6R-2STE1HLF"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d88ef7b4-fafc-4711-897a-424096bdb9ef")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/10112793.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bf62c681-e218-4b8a-a3d1-3224f0266c76")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "0.50mm Flex Connector, SFV-R Series, 6 Position, Top Side Contact, Side Entry Surface Mount ZIF Connector, Halogen Free, Lead Free"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5e4c6051-ad3d-480a-b1e4-630e92b6d72d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "2"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e712e3eb-ae02-439e-839f-2f3e620ec8a8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "649-SFV6R-2STE1HLF"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cae6613e-bd09-400f-8371-bb4badb22a2a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/SFV6R-2STE1HLF?qs=SqJKR5MmrycKkk8YjWDoCg%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b54e6c77-c08c-40bb-8ae2-534fcfdbf50c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Amphenol"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "39f6fc96-97cc-4bca-b3fe-631553604e66")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "SFV6R-2STE1HLF"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3bd2db40-429f-4c8d-9cdf-9dc72f8698e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.25 1.75)
+		(end -4.25 2.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3ce50ae9-49d3-4b8f-bc30-aebbf3961b81")
+	)
+	(fp_line
+		(start -4.25 2.75)
+		(end 5.25 2.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1603d326-224a-4e85-ba54-4388ce46d0a9")
+	)
+	(fp_line
+		(start -3.2 0.95)
+		(end -3.2 1.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "09c64ca3-1cd3-44c5-b630-8ea3ee1afafb")
+	)
+	(fp_line
+		(start -3.2 1.75)
+		(end -4.25 1.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "89d42dfa-18ef-4311-a82f-66e1a7523617")
+	)
+	(fp_line
+		(start -1.25 -3)
+		(end -1.25 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "383e1fa5-a61b-4448-8ba4-cd43bbd82e8c")
+	)
+	(fp_line
+		(start -1.25 -2.9)
+		(end -1.25 -2.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e58f999a-40e7-4897-a8e1-19af5dc33133")
+	)
+	(fp_line
+		(start 4.2 1.75)
+		(end 4.2 0.95)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bd52c28c-fea2-45b6-a148-1520c6eae29a")
+	)
+	(fp_line
+		(start 5.25 1.75)
+		(end 4.2 1.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d39f908d-f4e9-4608-9037-d6ff99dd01e4")
+	)
+	(fp_line
+		(start 5.25 2.75)
+		(end 5.25 1.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d8044ede-ce15-469e-99b4-5738d8098cf7")
+	)
+	(fp_arc
+		(start -1.25 -3)
+		(mid -1.2 -2.95)
+		(end -1.25 -2.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "340d4e12-2f5d-4e36-a8a1-b6c85adfba78")
+	)
+	(fp_arc
+		(start -1.25 -2.9)
+		(mid -1.3 -2.95)
+		(end -1.25 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "92194147-f9bd-4208-aed7-0d1c5858d4ef")
+	)
+	(fp_line
+		(start -5.35 -3.45)
+		(end 6 -3.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5daf87d6-f240-48ad-8499-5533323d04bd")
+	)
+	(fp_line
+		(start -5.35 3.45)
+		(end -5.35 -3.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "87828207-c9fe-4f02-895c-208056ff246c")
+	)
+	(fp_line
+		(start 6 -3.45)
+		(end 6 3.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2aa7499e-cfcc-442a-9c90-047c92ed3043")
+	)
+	(fp_line
+		(start 6 3.45)
+		(end -5.35 3.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6cf266e4-530a-41d0-8aef-dfd9e3ec2c56")
+	)
+	(fp_line
+		(start -4.25 1.75)
+		(end -3.2 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0041d0c4-107a-47b6-932a-ffb4cc7036e7")
+	)
+	(fp_line
+		(start -4.25 2.75)
+		(end -4.25 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c5638cfc-9375-4021-a323-2925974c0733")
+	)
+	(fp_line
+		(start -3.2 -1.45)
+		(end 3.2 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9d641324-4474-496c-b577-fbdec04c1813")
+	)
+	(fp_line
+		(start -3.2 1.75)
+		(end -3.2 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bfc756d4-25a2-49ec-96b3-cc835b9a827c")
+	)
+	(fp_line
+		(start 4.2 -1.45)
+		(end 4.2 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d36ea54f-4587-4418-be76-23b2cf05b107")
+	)
+	(fp_line
+		(start 4.2 1.75)
+		(end 5.25 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "367bfbc3-887c-4cbc-8831-c94816294d07")
+	)
+	(fp_line
+		(start 4.25 2.75)
+		(end -4.25 2.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "84788fcf-4b43-4a0d-89a8-7314b9f4a4ed")
+	)
+	(fp_line
+		(start 5.25 1.75)
+		(end 5.25 2.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a6bb0d15-74a7-4f49-9ae2-a65f3b12dc22")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "579f6575-d54d-4f84-8f9b-304cced39399")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.25 -1.749999)
+		(size 0.3 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "825cbd0d-ee78-4bd4-b1aa-75e64cdfb59e")
+	)
+	(pad "2" smd rect
+		(at -0.75 -1.75)
+		(size 0.3 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "50a91d5d-af24-4316-94fa-fe0ca989acae")
+	)
+	(pad "3" smd rect
+		(at -0.25 -1.75)
+		(size 0.3 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f3a73986-7889-485c-a792-ad6acc743e34")
+	)
+	(pad "4" smd rect
+		(at 0.25 -1.75)
+		(size 0.3 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "78e4d7ea-b322-4bb1-8521-f9c5c7ac9a5e")
+	)
+	(pad "5" smd rect
+		(at 0.75 -1.75)
+		(size 0.3 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f3c2d508-6d74-4c2c-a093-c373396ea110")
+	)
+	(pad "6" smd rect
+		(at 1.25 -1.749999)
+		(size 0.3 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "00dc0e1c-fe96-49e2-a5cb-6f2d5a16ff07")
+	)
+	(pad "7" smd rect
+		(at 1.75 -1.749999)
+		(size 0.3 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f00ce20b-814f-4701-9011-e152425ee011")
+	)
+	(pad "8" smd rect
+		(at 2.25 -1.749999)
+		(size 0.3 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0b50585e-9365-4002-9a6d-076fbde6c508")
+	)
+	(pad "MP1" smd rect
+		(at -3.025 -0.499999 90)
+		(size 2.3 2.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4d424a25-7846-46f9-b025-d02ae2fd20a1")
+	)
+	(pad "MP2" smd rect
+		(at 4 -0.5 90)
+		(size 2.3 2.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e367806e-79bf-432c-9cc3-d654c6f00014")
+	)
+	(embedded_fonts no)
+	(model "SFV6R-2STE1HLF.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
