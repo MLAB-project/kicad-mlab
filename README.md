@@ -1,17 +1,17 @@
 KiCad MLAB libraries
 ==========
-Libraries are compatibile with KiCAD 8.0 and KiCAD 7.0
+Libraries are compatible with KiCAD 8.0 and KiCAD 7.0
 
-MLAB specific KiCAD parts library.
+MLAB-specific KiCAD parts library.
 
 
-Scripts, setting, symbols and footprints for KiCad used by the [MLAB-project](http://mlab.cz)
+Scripts, settings, symbols, and footprints for KiCad used by the [MLAB-project](http://mlab.cz)
 
 Installation
 ------------
-To install everthing just type:
+To install everything, just type:
 ```sh
 $ ./install-all.sh
 ```
-This script make symlinks from cloned kicad-mlab repository to `~/.local/share/kicad/8.0/` (or corresponding KiCAD 7.0 folder) for templates, footprints, symbols and plugins.
-Then the symbol and footprint libraries should be added and opened in KiCAD manually.
+This script makes symlinks from the cloned kicad-mlab repository to `~/.local/share/kicad/8.0/` (or the corresponding KiCAD version folder) for templates, footprints, symbols, and plugins.
+Then, the symbol and footprint **libraries need to be manually added and opened in KiCAD as a folder**.

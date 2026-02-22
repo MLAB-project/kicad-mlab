@@ -1,0 +1,156 @@
+(footprint "PinHeader_2x04_P2.54mm_Edge_Mount"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "surface-mounted straight pin header, 1x04, 2.54mm pitch, single row, style 1 (pin 1 left)")
+	(tags "Surface mounted pin header SMD 1x04 2.54mm single row style1 pin1 left")
+	(property "Reference" "J1"
+		(at -2.3688 4.1512 90)
+		(layer "F.SilkS")
+		(uuid "c8874a4a-ce36-46ea-8c8c-88e65b63af10")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "HEADER_2x04"
+		(at 2.5 -0.06 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "789b76ab-a1dd-4682-abaa-25071e0eb27c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c169e1a9-68a6-44ea-85e1-43b68a2c6950")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "2x04 2.54 mm pitch header"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0ba0624c-30b3-4e47-a0e6-b1736a486e00")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.65 -5.58)
+		(end -1.65 5.58)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1ef87545-aa45-47c7-9030-3011a04d2a16")
+	)
+	(fp_line
+		(start -1.65 5.58)
+		(end 1.4 5.58)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b0b6d631-c8ec-4afd-aa53-7b05a51d176b")
+	)
+	(fp_line
+		(start 1.4 -5.58)
+		(end -1.65 -5.58)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "03105762-bafc-464e-b624-35af3029b365")
+	)
+	(fp_line
+		(start 1.4 -5.58)
+		(end 1.4 5.58)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d61bc036-8bb5-4859-ba77-e430cc829327")
+	)
+	(pad "1" smd rect
+		(at 0 -3.81)
+		(size 2.51 1)
+		(layers "F.Cu" "F.Mask")
+		(uuid "29491ffa-68b4-4df7-86cf-cb968abf6614")
+	)
+	(pad "2" smd rect
+		(at 0 -3.81)
+		(size 2.51 1)
+		(layers "B.Cu" "B.Mask")
+		(uuid "891f625b-eccd-45ea-b1c8-9c05f48e183e")
+	)
+	(pad "3" smd rect
+		(at 0 -1.27)
+		(size 2.51 1)
+		(layers "F.Cu" "F.Mask")
+		(uuid "08a787ae-f80a-470e-9fb5-8aab3c9f1d4e")
+	)
+	(pad "4" smd rect
+		(at 0 -1.27)
+		(size 2.51 1)
+		(layers "B.Cu" "B.Mask")
+		(uuid "4fe484b0-904a-4d86-b774-4dc88a96c884")
+	)
+	(pad "5" smd rect
+		(at 0 1.27)
+		(size 2.51 1)
+		(layers "F.Cu" "F.Mask")
+		(uuid "7cf8f855-373f-4c2e-a609-a79782da2066")
+	)
+	(pad "6" smd rect
+		(at 0 1.27)
+		(size 2.51 1)
+		(layers "B.Cu" "B.Mask")
+		(uuid "df61be64-710a-48cd-97dd-cb15e9f55563")
+	)
+	(pad "7" smd rect
+		(at 0 3.81)
+		(size 2.51 1)
+		(layers "F.Cu" "F.Mask")
+		(uuid "71738abd-8506-4c36-ba72-dd24cde64b7b")
+	)
+	(pad "8" smd rect
+		(at 0 3.81)
+		(size 2.51 1)
+		(layers "B.Cu" "B.Mask")
+		(uuid "c365dc00-d4f4-4669-bca4-759dec2a63be")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x04_P2.54mm_Vertical.step"
+		(offset
+			(xyz 1.778 4.1402 0.3556)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -90 -0)
+		)
+	)
+)
