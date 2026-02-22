@@ -2,7 +2,6 @@
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
-	(locked yes)
 	(layer "F.Cu")
 	(descr "Diode SMA (DO-214AC)")
 	(tags "Diode SMA (DO-214AC)")
@@ -322,16 +321,16 @@
 		(uuid "9e14e696-5e69-4dcd-b2f7-ef08c94a5112")
 	)
 	(embedded_fonts no)
-	(model "${KISYS3DMOD_MLAB}/PIN_sensor_frame.step"
+	(model "${KISYS3DMOD_MLAB}/si14537.step"
 		(opacity 0.7500)
 		(offset
-			(xyz 0 0 1)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 90)
+			(xyz -0 -0 90)
 		)
 	)
 )
