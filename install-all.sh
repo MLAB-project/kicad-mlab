@@ -4,7 +4,12 @@
 #sudo chmod +x src/kicad-footprint-manager
 #sudo cp src/kicad-footprint-manager /usr/bin/kicad-footprint-manager
 
-if [ -d "${HOME}/.local/share/kicad/9.0/" ]
+if [ -d "${HOME}/.local/share/kicad/10.0/" ]
+then
+    echo "Installing for KICAD 10, user folder"
+    BASEFOLDER="${HOME}/.local/share/kicad/10.0/"
+    VERSION=10
+elif [ -d "${HOME}/.local/share/kicad/9.0/" ]
 then
     echo "Installing for KICAD 9, user folder"
     BASEFOLDER="${HOME}/.local/share/kicad/9.0/"
@@ -40,11 +45,11 @@ echo "KiCAD version: ${VERSION}"
 #cp -r footprints ~/kicad_sources/
 #sudo cp -r symbols /usr/share/kicad/library/
 
-ln -s "$(realpath template/mlab-default/)" ${BASEFOLDER}template/
-echo $(realpath plugins/*.py) | tr " " "\n" | xargs -I % cp -s % ${BASEFOLDER}scripting/plugins/
-echo $(realpath footprints/*.pretty) | tr " " "\n" | xargs -I % ln -s % ${BASEFOLDER}footprints/
-echo $(realpath symbols/*.kicad_sym) | tr " " "\n" | xargs -I % cp -s % ${BASEFOLDER}symbols/
-echo $(realpath 3Dmodels/*.*) | tr " " "\n" | xargs -I % cp -s % ${BASEFOLDER}3dmodels/
+ln -sf "$(realpath template/mlab-default/)" ${BASEFOLDER}template/
+echo $(realpath plugins/*.py) | tr " " "\n" | xargs -I % cp -sf % ${BASEFOLDER}scripting/plugins/
+echo $(realpath footprints/*.pretty) | tr " " "\n" | xargs -I % ln -sf % ${BASEFOLDER}footprints/
+echo $(realpath symbols/*.kicad_sym) | tr " " "\n" | xargs -I % cp -sf % ${BASEFOLDER}symbols/
+find "$(realpath 3Dmodels)" -maxdepth 1 -type f -print0 | xargs -0 -I % cp -sf % ${BASEFOLDER}3dmodels/
 
 #sudo cp -r modules /usr/share/kicad/
 
