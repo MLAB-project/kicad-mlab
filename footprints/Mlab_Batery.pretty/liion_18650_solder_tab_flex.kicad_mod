@@ -1,0 +1,178 @@
+(footprint "liion_18650_solder_tab_flex"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "BAT**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c332a4cd-da33-4ea8-88d0-af587d36c7c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "liion_18650_solder_tab_flex"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ef92abd8-e04e-454c-8514-27f6dc18c12b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "180ee7c7-2364-45cf-ad8f-8cf0fa23caf7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "54a6ad1f-4e47-4a44-9641-d208352b9698")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -50 -4)
+		(end 41.5 -4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "b3e64018-8f60-4029-a468-c4cf43600190")
+	)
+	(fp_line
+		(start -50 4)
+		(end -50 -4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "f50ef1d8-8608-418b-8623-c12382327edb")
+	)
+	(fp_line
+		(start 41.5 -5)
+		(end 50 -5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "5401f9b8-d817-4557-9ef1-e738da9ff2b9")
+	)
+	(fp_line
+		(start 41.5 -4)
+		(end 41.5 -5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "8f6cc97b-b440-4da3-907f-d08e14536973")
+	)
+	(fp_line
+		(start 41.5 4)
+		(end -50 4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "81010dab-f888-43ce-a73b-057ac62389b4")
+	)
+	(fp_line
+		(start 41.5 5)
+		(end 41.5 4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "34e83898-46c2-484b-84d6-d784a4266e52")
+	)
+	(fp_line
+		(start 50 -5)
+		(end 50 5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "f990bb0d-7db5-4d69-8bd8-6f2c934e8977")
+	)
+	(fp_line
+		(start 50 5)
+		(end 41.5 5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "68b664be-c3d1-4ca3-8a29-69fe244a56fe")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d30fe1e7-01b7-4bb6-8d42-403787f99746")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at -45.725 0)
+		(size 5 6)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2cb5bac1-8255-427b-be40-0ca27022c2fa")
+	)
+	(pad "2" thru_hole oval
+		(at 45.725 0)
+		(size 5 8)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3e246439-b663-468d-ad07-76bb1ab18737")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_MLAB}/3Dmodels/18650-battery-01a-v1.step"
+		(offset
+			(xyz -33 0 9.25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
