@@ -1,12 +1,12 @@
 (footprint "FIR_0805"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0.3556 0.0254 0)
+		(at 0 -2.35 0)
 		(layer "F.SilkS")
-		(uuid "20696c58-c396-4017-80a8-f64696813324")
+		(uuid "e2635fe3-23cd-44b8-9942-06f345e3c811")
 		(effects
 			(font
 				(size 1 1)
@@ -18,7 +18,7 @@
 		(at 2.794 1.905 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "e7aa5315-a8d8-47ae-a094-8a8f3ae85887")
+		(uuid "4a73d78f-f8d1-4749-9fc2-98b9bec1383f")
 		(effects
 			(font
 				(size 1 1)
@@ -30,7 +30,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f8cd8a73-d91b-4f4e-acd5-38413fc39ac3")
+		(uuid "ff0d2de1-b5d7-4bec-88b7-5bf8b363e443")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +42,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "464c9ec6-5b37-4771-8194-d347b2f8194b")
+		(uuid "0aec146c-c104-4222-8e8e-3747a5bd13af")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51,6 +51,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.15 -0.85)
 		(end -0.5 -0.85)
@@ -59,7 +60,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "8003a2b3-0bc1-4132-a744-21520c9b2aa9")
+		(uuid "d7f05bcb-60b4-456a-aec6-abe3f49ea077")
 	)
 	(fp_line
 		(start -2.15 0.85)
@@ -69,7 +70,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "d2b54321-702f-4f0b-9ace-08275069edce")
+		(uuid "89aa4539-b65c-4492-a2e6-fe1dd84a671f")
 	)
 	(fp_line
 		(start -0.5 0.85)
@@ -79,7 +80,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "19e938bf-f79f-4b97-8d58-f2d59ac7e434")
+		(uuid "5b7bcb63-2ebe-48e5-b0a1-e294c5cfab18")
 	)
 	(fp_line
 		(start 0.5 -0.85)
@@ -89,7 +90,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "61b7e6f0-3977-4bb3-ac8b-a1024bcbf04a")
+		(uuid "1cb64081-1902-41ae-bfb9-bde9b63304db")
 	)
 	(fp_line
 		(start 2.15 -0.85)
@@ -99,7 +100,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "9ee64524-77ca-44aa-bd7d-440cebaf4c2e")
+		(uuid "998f1e04-3fb4-4b92-bec9-cfa4d08a80b0")
 	)
 	(fp_line
 		(start 2.15 0.85)
@@ -109,7 +110,18 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "e64878ae-a77a-44c2-8988-bf1d8189563d")
+		(uuid "bab1ae8d-dae4-4edf-afb2-2c5e788f494a")
+	)
+	(fp_rect
+		(start -2.25 -1.75)
+		(end 2.25 1.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "b1ff338b-dcfe-4617-a6a5-7f0f8a067a63")
 	)
 	(fp_line
 		(start -2.032 -0.762)
@@ -119,7 +131,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "8bf2375f-2b6e-4428-8eb6-6f69e7e016c1")
+		(uuid "20a2f43e-273f-4e7d-9bdd-9d16cb25a42c")
 	)
 	(fp_line
 		(start -2.032 0.762)
@@ -129,7 +141,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "af12390c-f542-45f1-965f-1c6826775c6b")
+		(uuid "b50bdcee-ada9-420b-b522-5c7a05438856")
 	)
 	(fp_line
 		(start 2.032 -0.762)
@@ -139,7 +151,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "9e5b3ed5-d452-4694-8c7f-f677498b3cb6")
+		(uuid "2220877a-5db4-41ba-b46f-85ac9abe116e")
 	)
 	(fp_line
 		(start 2.032 0.762)
@@ -149,12 +161,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "d6bec29f-cfa7-42e3-999b-f38dc4dd4d0a")
+		(uuid "0c2f9e9e-4b26-46b2-a901-c9701bbd87e6")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0.3556 0.0254 0)
 		(layer "F.Fab")
-		(uuid "4137e73f-72f5-44c9-9ca7-3338a6fc0de1")
+		(uuid "22e1142f-1685-482c-bca6-28eb2573b9af")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -166,19 +178,19 @@
 		(at -1.35 0)
 		(size 1.3 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "7874aaa0-7587-49ca-9a86-4e5b5f04b90c")
+		(uuid "84e999f2-9bd8-463e-9b06-1cd4af870093")
 	)
 	(pad "2" smd rect
 		(at 0 0)
 		(size 0.7 3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "40ee20cd-11ea-46d8-9e4e-273e4a1d969d")
+		(uuid "9ee2fa5b-1a35-49f8-84b4-df2ecb26c8ef")
 	)
 	(pad "3" smd rect
 		(at 1.35 0)
 		(size 1.3 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "e0b78876-a67c-4818-94cf-0ef6c02b05cb")
+		(uuid "a6e8794e-8fa4-47af-94ea-b8621bc3219d")
 	)
 	(embedded_fonts no)
 	(model "${KISYS3DMOD_MLAB}/NFM21_0805_3Pin_Capacitor.STEP"

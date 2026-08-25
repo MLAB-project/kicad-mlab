@@ -1,13 +1,13 @@
 (footprint "Made_in_EU"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
-	(property "Reference" "G***"
+	(property "Reference" "REF**"
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "c36986c5-0c40-4778-84ad-2fe177488dba")
+		(uuid "ca47aa27-6319-48cf-9ab2-ed421ea38285")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -15,11 +15,11 @@
 			)
 		)
 	)
-	(property "Value" "LOGO"
+	(property "Value" "LOGO EU"
 		(at 0.75 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "f64597d4-af22-40f6-8817-fb3d099e4c09")
+		(uuid "987bfb52-b5b0-4c15-ac6c-6c28281811af")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "6f558377-ff8c-4b2a-bfd1-6338ca377d68")
+		(uuid "bea02587-0cdc-42e7-96bd-731be7d66934")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7c53ece7-933c-4a72-83be-32d59a24b985")
+		(uuid "38cec8e3-7a5f-435f-808c-81948294bc16")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51,7 +51,8 @@
 			)
 		)
 	)
-	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_poly
 		(pts
 			(xy -0.741672 -1.393041) (xy -0.737224 -1.378107) (xy -0.727857 -1.348918) (xy -0.715089 -1.310152)
@@ -64,7 +65,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "d1cd355b-bb9e-45b5-9cc5-48fb1d2b0200")
+		(uuid "e8993b4b-60c9-4c7a-ad1e-00051ca0a6bc")
 	)
 	(fp_poly
 		(pts
@@ -80,7 +81,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "fd32bfc8-7508-4773-a8fe-614da6f519ed")
+		(uuid "401534ee-29ad-4824-98ca-1dfe4ea001e1")
 	)
 	(fp_poly
 		(pts
@@ -409,7 +410,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "8e51c86c-550e-4e7a-b32e-7c95325d21a7")
+		(uuid "fdc558c2-9869-4288-9d38-5c0f83039fe9")
 	)
 	(embedded_fonts no)
 )

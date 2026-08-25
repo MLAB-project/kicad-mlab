@@ -4,7 +4,7 @@
 	(generator_version "10.0")
 	(symbol "CC3301"
 		(pin_names
-			(offset 0.254)
+			(offset 1.016)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17,7 +17,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -27,7 +27,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -51,7 +51,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 			)
 		)
@@ -66,7 +65,7 @@
 				)
 			)
 		)
-		(property "ki_locked" ""
+		(property "UST_ID" "5c70984412875079b91f888e"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -76,18 +75,7 @@
 				)
 			)
 		)
-		(property "ki_keywords" "XCC3301ENJARSBR"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_fp_filters" "WQFN_JARSBR_TEX WQFN_JARSBR_TEX-M WQFN_JARSBR_TEX-L"
+		(property "NIID" "1f24966b-43d0-49cf-b4b3-2824cf61a812"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -98,10 +86,32 @@
 				)
 			)
 		)
-		(symbol "CC3301_0_1"
+		(property "LCSC" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "MCU atmel atmega"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "ATMEGA1284P-AU_0_1"
 			(rectangle
-				(start -21.336 30.353)
-				(end 21.463 -31.623)
+				(start -21.59 46.99)
+				(end 21.59 -46.99)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -116,32 +126,32 @@
 				(name "PA_LDO_OUT"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at -29.21 16.51 0)
-				(length 7.62)
-				(name "RF_BG"
+				(at 25.4 5.08 180)
+				(length 3.81)
+				(name "(PCINT14/MISO)PB6"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
@@ -152,14 +162,14 @@
 				(name "GND"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 				(number "3"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
@@ -170,14 +180,14 @@
 				(name "VDDA_IN1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 				(number "4"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
@@ -188,14 +198,14 @@
 				(name "VDDA_IN2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 				(number "5"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
@@ -206,14 +216,14 @@
 				(name "HFXT_P"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 				(number "6"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
@@ -224,14 +234,14 @@
 				(name "HFXT_M"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 				(number "7"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
@@ -242,14 +252,14 @@
 				(name "UART_RTS"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 				(number "11"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
@@ -260,14 +270,14 @@
 				(name "UART_CTS"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 				(number "12"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
@@ -278,14 +288,14 @@
 				(name "UART_RX"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 				(number "13"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
@@ -296,14 +306,14 @@
 				(name "UART_TX"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 				(number "14"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
@@ -314,14 +324,14 @@
 				(name "GND"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 				(number "16"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
@@ -332,14 +342,14 @@
 				(name "VIO"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 				(number "17"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
@@ -350,14 +360,14 @@
 				(name "SDIO_CMD"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 				(number "18"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
@@ -368,14 +378,14 @@
 				(name "SDIO_CLK"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 				(number "19"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
@@ -386,14 +396,14 @@
 				(name "GND"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 				(number "20"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
@@ -404,14 +414,14 @@
 				(name "SDIO_D3"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 				(number "21"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
@@ -422,14 +432,14 @@
 				(name "SDIO_D2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 				(number "22"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
@@ -440,14 +450,14 @@
 				(name "SDIO_D1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 				(number "23"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
@@ -458,14 +468,14 @@
 				(name "SDIO_D0"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 				(number "24"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
@@ -476,14 +486,14 @@
 				(name "GND"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 				(number "25"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
@@ -494,14 +504,14 @@
 				(name "SWCLK"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 				(number "26"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
@@ -512,14 +522,14 @@
 				(name "SWDIO"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 				(number "27"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
@@ -932,14 +942,14 @@
 			(pin input line
 				(at -10.16 2.54 0)
 				(length 5.08)
-				(name "IN"
+				(name "P0.10/NFC2@J24"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "J24"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1114,18 +1124,17 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 10.16 2.54 180)
-				(length 3.81)
-				(hide yes)
-				(name "OUT"
+			(pin bidirectional line
+				(at 39.37 3.81 180)
+				(length 5.08)
+				(name "DEC5@N24"
 					(effects
 						(font
-							(size 0.762 0.762)
+							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4"
+				(number "N24"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1195,17 +1204,22 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(symbol "LM1117_ADJ_SOT_0_1"
-			(rectangle
-				(start -5.08 3.81)
-				(end 5.08 -7.62)
-				(stroke
-					(width 0)
-					(type default)
+			(pin bidirectional line
+				(at -39.37 -6.35 0)
+				(length 5.08)
+				(name "P1.09@R1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
-				(fill
-					(type none)
+				(number "R1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 		)
@@ -1264,18 +1278,17 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 10.16 2.54 180)
-				(length 3.81)
-				(hide yes)
-				(name "OUT"
+			(pin bidirectional line
+				(at -39.37 -11.43 0)
+				(length 5.08)
+				(name "P0.12@U1"
 					(effects
 						(font
-							(size 0.762 0.762)
+							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4"
+				(number "U1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1345,17 +1358,22 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(symbol "LM317M_LM217_DPAK_D2PAK_0_1"
-			(rectangle
-				(start -5.08 3.81)
-				(end 5.08 -7.62)
-				(stroke
-					(width 0)
-					(type default)
+			(pin bidirectional line
+				(at -39.37 -13.97 0)
+				(length 5.08)
+				(name "VDD@W1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
-				(fill
-					(type none)
+				(number "W1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 		)
@@ -1396,17 +1414,17 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 10.16 2.54 180)
+			(pin bidirectional line
+				(at 39.37 -13.97 180)
 				(length 5.08)
-				(name "OUT"
+				(name "P1.01@Y23"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4"
+				(number "Y23"
 					(effects
 						(font
 							(size 1.27 1.27)
