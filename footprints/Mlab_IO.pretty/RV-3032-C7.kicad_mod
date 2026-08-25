@@ -6,7 +6,7 @@
 	(property "Reference" "REF**"
 		(at 0.782 -2.4064 0)
 		(layer "F.SilkS")
-		(uuid "f062206d-7921-4538-a0be-347793702470")
+		(uuid "84b4288e-8695-401a-a18f-f0bc153133a2")
 		(effects
 			(font
 				(size 0.64 0.64)
@@ -15,9 +15,9 @@
 		)
 	)
 	(property "Value" "RV-3032-C7"
-		(at 13.3804 2.4064 0)
+		(at 0 2.4064 0)
 		(layer "F.Fab")
-		(uuid "2d737217-bc32-42a4-bcc4-3a6a561a0fdd")
+		(uuid "05845c5d-91fe-4a85-a3be-53d03b7ca687")
 		(effects
 			(font
 				(size 0.64 0.64)
@@ -29,7 +29,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8ad84038-d763-44f2-96af-10f81ffd0b4b")
+		(uuid "c6db1ef8-ed19-4152-ba55-043dee671053")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40,7 +40,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e216ef3f-23b7-4260-9126-ddc45370434e")
+		(uuid "31797d31-3c3a-4406-a07f-437acd1f80c0")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -208,4 +208,15 @@
 		(uuid "efefce59-908b-4c68-8199-ff3c05a99a2a")
 	)
 	(embedded_fonts no)
+	(model "${KISYS3MOD_MLAB}/RV-3032-C7-32.768KHZ-2.5PPM-TA-QC.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )
