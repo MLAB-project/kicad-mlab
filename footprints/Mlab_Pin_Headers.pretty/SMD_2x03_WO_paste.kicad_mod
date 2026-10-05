@@ -1,7 +1,7 @@
 (footprint "SMD_2x03_WO_paste"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "pin header straight 2x03")
 	(tags "pin header straight 2x03")
@@ -9,7 +9,7 @@
 		(at 0 -5.08 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "ddf739d1-f673-4918-8d6e-975420ae69ae")
+		(uuid "ec09afd8-05f1-40e8-a2a1-d02574fad064")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -21,7 +21,7 @@
 		(at 0 5.08 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "6280bc25-4543-4154-8b2f-6effbb18a3cc")
+		(uuid "403716c5-f1bc-4dc4-8fa9-a2e58bd3124e")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -33,7 +33,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "6d89ea33-abe0-4dfe-824b-a4a64e72e32c")
+		(uuid "9194ea97-9721-4737-bc68-d7eb758e8f47")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +45,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "cb755259-b27a-4420-8b74-742049272d16")
+		(uuid "5c718318-d7ad-45be-9b0e-d94efb1ab70e")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.54 -3.81)
 		(end 2.54 -3.81)
@@ -62,17 +63,17 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "2a00e8e7-9cbd-4764-b376-22a4dd932de7")
+		(uuid "876d04d3-183b-457d-ba17-781ff34ef265")
 	)
 	(fp_line
 		(start -2.54 3.81)
-		(end -2.54 -3.81)
+		(end -2.54 -1.65)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "608e491a-01f5-4f3a-b038-2c02d30ecf29")
+		(uuid "df352ce5-0c6f-4434-9d15-affb5ee07bff")
 	)
 	(fp_line
 		(start 2.54 -3.81)
@@ -82,7 +83,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "6cb74225-df61-4581-a707-b72cdd0ab898")
+		(uuid "94e7d84c-08f1-4353-9d24-8b0fb2099d0a")
 	)
 	(fp_line
 		(start 2.54 3.81)
@@ -92,16 +93,16 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "7777aa6b-4313-421c-8d1a-69a97a6b5cdf")
+		(uuid "cc1f57d4-4d88-4172-89ce-93f72807c2ff")
 	)
 	(fp_text user "1"
 		(at -2.921 -2.54 0)
 		(layer "F.SilkS")
-		(uuid "c33aa78f-6835-4e4e-8c17-e7cb1f9d5332")
+		(uuid "777dc06e-8756-430b-a8d0-ac1f1c24f282")
 		(effects
 			(font
-				(size 0.5 0.5)
-				(thickness 0.05)
+				(size 0.8 0.8)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -109,37 +110,37 @@
 		(at -1.27 -2.54)
 		(size 1.524 1.524)
 		(layers "F.Cu" "F.Mask")
-		(uuid "d844cad7-b3a8-435e-84b4-3d1373cc3a64")
+		(uuid "84941fe0-62ba-4948-bd29-aded0b437cfc")
 	)
 	(pad "2" smd rect
 		(at 1.27 -2.54)
 		(size 1.524 1.524)
 		(layers "F.Cu" "F.Mask")
-		(uuid "83bc254b-93c0-4c2d-8886-33c3a621ff25")
+		(uuid "9bdcdd56-de30-49bc-83aa-078624083af5")
 	)
 	(pad "3" smd rect
 		(at -1.27 0)
 		(size 1.524 1.524)
 		(layers "F.Cu" "F.Mask")
-		(uuid "688ced49-d362-498b-ac10-ae581c753a96")
+		(uuid "b4834a2d-1564-410f-9710-d51ed6b69b69")
 	)
 	(pad "4" smd rect
 		(at 1.27 0)
 		(size 1.524 1.524)
 		(layers "F.Cu" "F.Mask")
-		(uuid "cb632127-12f6-4278-a14d-53ebe20acefc")
+		(uuid "054d3738-885f-4084-928a-ce49d9fb5a8c")
 	)
 	(pad "5" smd rect
 		(at -1.27 2.54)
 		(size 1.524 1.524)
 		(layers "F.Cu" "F.Mask")
-		(uuid "da0a8488-0ee4-4bf5-8325-56770944cc2f")
+		(uuid "71abacf9-4784-4964-a2a4-ee14b9b13e7f")
 	)
 	(pad "6" smd rect
 		(at 1.27 2.54)
 		(size 1.524 1.524)
 		(layers "F.Cu" "F.Mask")
-		(uuid "db157604-ef65-4b64-a4a8-ad04ef61a632")
+		(uuid "1031157b-b7dc-41c1-917b-78cd85e72d02")
 	)
 	(embedded_fonts no)
 	(model "Pin_Headers/Pin_Header_Straight_2x03.wrl"
